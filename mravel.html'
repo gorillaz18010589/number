@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="uti-8">
+	</head>
+	<body>
+		<video width="320" height="240" controls>
+    <source src="https://www.youtube.com/watch?v=ZrB7EdfPBJU">
+    你的瀏覽器不支援影片標籤
+</video>
+
+	</body>
+</html>
