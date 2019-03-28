@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="uti-8">
+	</head>
+	<body>
+	<from>
+	 請輸入帳號:<intput>
+	 </from>
+		
+	</body>
+</html>
