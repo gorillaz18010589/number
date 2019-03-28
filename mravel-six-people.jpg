@@ -1,0 +1,931 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>復仇者聯盟：奧創紀元主角海報歪了（更新：補充說明） - 亨利乳頭市 |-  樂多日誌</title>
+<meta name="keywords" content="市長觀點,"> 
+<meta name="description" content="吐槽者聯盟盟主亨利市長又對海報有意見了。
+
+
+
+你一定會覺得奇怪，為何市長老是找復仇者麻煩，不怕復仇者復仇嗎？說到底我還是..."> 
+<meta name="googlebot" content="index,follow">
+<meta name="robots" content="index,follow">
+<meta property="og:site_name" content="樂多日誌"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="http://blog.roodo.com/henrynipplecity/archives/44048150.html"/>
+<meta property="og:title" content="復仇者聯盟：奧創紀元主角海報歪了（更新：補充說明）@亨利乳頭市"/>
+<meta property="article:publisher" content="https://www.facebook.com/roodoblog" />
+<meta property="article:author" content="https://www.facebook.com/roodoblog">
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+<meta property="og:image" content="http://pcdn1.rimg.tw/photos/4724249_zyh74x6_l.jpg"/>
+<meta property="og:description" content="吐槽者聯盟盟主亨利市長又對海..."/>
+<meta name="twitter:card" content="article" />
+<meta name="twitter:site" content="樂多日誌" />
+<meta name="twitter:creator" content="樂多日誌" />
+<meta name="twitter:title" content="復仇者聯盟：奧創紀元主角海報歪了（更新：補充說明）@亨利乳頭市"/>
+<meta name="twitter:description" content="吐槽者聯盟盟主亨利市長又對海..."/>
+<meta property="fb:app_id" content="107286602645990"/>
+<meta property="fb:admins" content="1430352427,825503560"/>
+<link rel="stylesheet" href="http://blog.roodo.com/henrynipplecity/site.css" type="text/css" />
+<style type="text/css">div.main img {max-width: 100%;  height: auto;}</style>
+<link rel="canonical" href="http://blog.roodo.com/henrynipplecity/archives/44048150.html" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://blog.roodo.com/henrynipplecity/rss.xml" />
+<link rel="alternate" type="application/atom+xml" title="Atom" href="http://blog.roodo.com/henrynipplecity/atom.xml" />
+<script language="JavaScript">
+<!--
+if (top.location != location ) {
+    top.location.href = location.href;
+}
+var HOST = 'blog.roodo.com';
+var PATH = '/henrynipplecity';
+
+// Copyright (c) 1996-1997 Athenia Associates.
+// http://www.webreference.com/js/
+// License is granted if and only if this entire
+// copyright notice is included. By Tomer Shiran.
+
+function setCookie (name, value, expires, path, domain, secure) {
+    var curCookie = name + "=" + escape(value) + (expires ? "; expires=" + expires.toGMTString() : "") + (path ? "; path=" + path : "") + (domain ? "; domain=" + domain : "") + (secure ? "secure" : "");
+    document.cookie = curCookie;
+}
+
+function getCookie (name) {
+    var prefix = name + '=';
+    var c = document.cookie;
+    var nullstring = '';
+    var cookieStartIndex = c.indexOf(prefix);
+    if (cookieStartIndex == -1)
+        return nullstring;
+    var cookieEndIndex = c.indexOf(";", cookieStartIndex + prefix.length);
+    if (cookieEndIndex == -1)
+        cookieEndIndex = c.length;
+    return unescape(c.substring(cookieStartIndex + prefix.length, cookieEndIndex));
+}
+
+function deleteCookie (name, path, domain) {
+    if (getCookie(name))
+        document.cookie = name + "=" + ((path) ? "; path=" + path : "") + ((domain) ? "; domain=" + domain : "") + "; expires=Thu, 01-Jan-70 00:00:01 GMT";
+}
+
+function fixDate (date) {
+    var base = new Date(0);
+    var skew = base.getTime();
+    if (skew > 0)
+        date.setTime(date.getTime() - skew);
+}
+
+function setCommentAuthor(f) {
+      if(f.myicon != undefined)
+        setCookie("myicon", f.myicon.checked, now, PATH, HOST, '');
+    if(f.bake != undefined)
+        setCookie("bake", f.bake.checked, now, PATH, HOST, '');
+    if(!f.bake.checked) {
+         deleteCookie("author", PATH, HOST);
+         deleteCookie("email", PATH, HOST);
+         deleteCookie("url", PATH, HOST);
+         return true;
+    }
+    var now = new Date();
+    fixDate(now);
+    now.setTime(now.getTime() + 30 * 24 * 60 * 60 * 1000);
+    if(f.author != undefined)
+        setCookie("author", f.author.value, now, PATH, HOST, '');
+    if(f.email != undefined)
+        setCookie("email", f.email.value, now, PATH, HOST, '');
+    if(f.url != undefined)
+        setCookie("url", f.url.value, now, PATH, HOST, '');
+}
+
+function removeCommentAuthor(f) {
+    deleteCookie("author", PATH, HOST);
+    deleteCookie("email", PATH, HOST);
+    deleteCookie("url", PATH, HOST);
+    deleteCookie("myicon", PATH, HOST);
+    deleteCookie("bake", PATH, HOST);
+    f.author.value = '';
+    f.email.value = '';
+    f.url.value = '';
+    f.myicon.value = '';
+    f.bake.value = '';
+}
+
+function CopyText(text2copy) 
+{
+  if (window.clipboardData) 
+  {   
+    window.clipboardData.setData("Text",text2copy);   
+    alert('該文章引用網址已複製到系統剪貼簿。');
+  } else {   
+    var flashcopier = 'flashcopier';
+    if(!document.getElementById(flashcopier)) 
+    {
+        var divholder = document.createElement('div');
+      divholder.id = flashcopier;
+        document.body.appendChild(divholder);
+    }
+        document.getElementById(flashcopier).innerHTML = '';
+      var divinfo = '<embed src="http://blog.roodo.com/_img/clipboard.swf" FlashVars="clipboard='+escape(text2copy)+'" width="0" height="0" type="application/x-shockwave-flash"></embed>';//?里是??
+      document.getElementById(flashcopier).innerHTML = divinfo;
+      alert('該文章引用網址已複製到系統剪貼簿。');
+  }
+}
+
+function calcHeight(the_iframe){
+var iframeElement = document.getElementById(the_iframe);
+if (document.all) {
+//ie
+iframeElement.style.height =iframeElement.contentWindow.document.body.scrollHeight+ 'px';}
+else{
+//ff
+iframeElement.style.height = iframeElement.contentDocument.height + 'px';
+}
+}
+-->
+</script>
+<!-- 請將這組標籤置於 <head> 標籤之後或 </body> 標籤之前。 -->
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js">
+  {lang: 'zh-TW'}
+</script>
+<script type='text/javascript'>
+var crtg_nid = '4787';
+var crtg_cookiename = 'crtg_rta';
+var crtg_varname = 'crtg_content';
+function crtg_getCookie(c_name){ var i,x,y,ARRCookies=document.cookie.split(";");for(i=0;i<ARRCookies.length;i++){x=ARRCookies[i].substr(0,ARRCookies[i].indexOf("="));y=ARRCookies[i].substr(ARRCookies[i].indexOf("=")+1);x=x.replace(/^\s+|\s+$/g,"");if(x==c_name){return unescape(y);} }return'';}
+var crtg_content = crtg_getCookie(crtg_cookiename);
+var crtg_rnd=Math.floor(Math.random()*99999999999);
+(function(){
+var crtg_url=location.protocol+'//rtax.criteo.com/delivery/rta/rta.js?netId='+escape(crtg_nid);
+crtg_url +='&cookieName='+escape(crtg_cookiename);
+crtg_url +='&rnd='+crtg_rnd;
+crtg_url +='&varName=' + escape(crtg_varname);
+var crtg_script=document.createElement('script');crtg_script.type='text/javascript';crtg_script.src=crtg_url;crtg_script.async=true;
+if(document.getElementsByTagName("head").length>0)document.getElementsByTagName("head")[0].appendChild(crtg_script);
+else if(document.getElementsByTagName("body").length>0)document.getElementsByTagName("body")[0].appendChild(crtg_script);
+})();
+</script>
+<!-- app/views/blog20/template/analytics.htm -->
+<script type='text/javascript'><!--// <![CDATA[
+var OA_zones = {
+'zone_83' : 83,
+'zone_85' : 85,
+'zone_253' : 253,
+'zone_157' : 157,
+'zone_159' : 159,
+'zone_161' : 161,
+'zone_363' : 363,
+'zone_367' : 367,
+'zone_369' : 369,
+'zone_371' : 371,
+'zone_377' : 377
+}
+// ]]> --></script>
+<!--<script src="http://rd.youthwant.com.tw/scripts/youthad.js?rnd=20120807"></script>-->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1132258-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript" src="http://track.sitetag.us/tracking.js?hash=29531f91ecca764296d3cc29388216db"></script>
+
+
+    <!-- 富盈YSM-->
+    <script>
+    var _adbot_partner_id = 'ca1cfb169c8f36346d2112c97f798737';
+    var _adbot_keywords = [];
+    var _adbot_slots = [ 'bottom', 'slide' ];
+    var _adbot_color = '#888';
+    var _adbot_label = 'roodo_pc';
+    </script>
+    <script async type="text/javascript" src="https://brain.adbot.tw/js/bootstrap.min.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="https://cdn.innity.net/admanager.js"></script> 
+<script type="text/javascript" src="http://blog.roodo.com/_img/sunset.js"></script>
+<!-- Zone Tag : Roodo Roodo_PC_UT(WV)-->
+<script type="text/javascript">
+new innity_adZone("ec0f40c389aeef789ce03eb814facc6c", "68114", {}); 
+</script>
+
+</head><body>
+<!-- HEADER -->
+<a name="top"></a>
+<DIV id="top_back"></DIV>
+<DIV id="topBody">
+	<DIV id="roodo_logo"><a href="http://blog.roodo.com/">樂多日誌</a></DIV>
+	<div class="search_top" >
+        <input name="q" type="text" class="search-text inp_txt" id="q" placeholder="搜尋" onkeypress="return checkKey(event)"/>
+        <div class="search-btn"> <a href="javascript:;" onclick="location.href='http://blog.roodo.com/x/'+document.getElementById('q').value;"><img src="/_img/top-search.gif" width="25" height="24"/></a></div>
+        <script>
+            function checkKey(e) {
+                if (e.keyCode == 13) {
+                    location.href='http://blog.roodo.com/x/'+document.getElementById('q').value;
+                    //return false;
+                }
+            }
+        </script>
+    </div>
+	<div style="line-height: 25px;font-size: 12px;text-indent: 20px;float: left;">
+			</div>
+	<div style="line-height: 25px;font-size: 12px;text-indent: 20px;float: left;">
+			</div>
+	<DIV id="topnav">
+	<UL>
+	    			<LI><A href="http://member.roodo.com/members/new" class="topside">建立Blog</A></LI><LI>│</LI><LI><A class="topside" href="http://adm.blog.roodo.com/login?PreURI=http%3A%2F%2Fblog.roodo.com%2Fhenrynipplecity%2Farchives%2F44048150.html">登入 &raquo;</A></LI>
+			
+	</UL>
+	</DIV>
+</DIV><span style="clear:both;"></span>
+<div id="container">
+    <div id="banner">
+        <h1 class="blogtitle"><a href="http://blog.roodo.com/henrynipplecity" accesskey="1">亨利乳頭市</a></h1>
+        <div class="description">
+                            </script><strong>亨利關係企業→</strong>　│　<a href="http://blog.roodo.com/henrynipplecity/" target="_self">亨利乳頭市</a>　│　<a href="http://www.facebook.com/henryoocity" target="_blank">亨利市粉絲團</a>　│　<a href="https://www.instagram.com/henrycity/" target="_blank">亨利市@instagram</a>　│　<a href="https://www.flickr.com/photos/71832020@N00/sets/72157650443785286" target="_blank">亨利市電影海報作品@Flickr</a>　│　<a href="http://henrycity.tumblr.com/" target="_blank">亨利市成人作品@tumblr</a>　│　<a href="https://www.youtube.com/user/henrycity" target="_blank">亨利市YouTube頻道</a>　│
+                    </div>
+    </div>
+    <div id="content">
+    <div class="blog">
+        <div class="dir">
+            <a class="amenu" href="http://blog.roodo.com/henrynipplecity/archives/43493588.html"><< 安海瑟薇對嘴PK大賽預告再看一遍的原因是...</a>            | <a class="amenu" href="http://blog.roodo.com/henrynipplecity/">回blog首頁</a> |
+            <a class="amenu" href="http://blog.roodo.com/henrynipplecity/archives/44118039.html">瘋狂麥斯：憤怒道預告再看一遍的原因是... >></a>        </div>  
+        <h2 class="date">April 13,2015 22:13</h2>
+        <div class="blogbody">
+            <h3 class="title">
+                                復仇者聯盟：奧創紀元主角海報歪了（更新：補充說明）
+            </h3>
+                    <div class="main">
+                                                                            <!-- CS --><div style="background-color: #ffffff"><img align="middle" border="0" src="http://pcdn1.rimg.tw/photos/4724249_zyh74x6_l.jpg" vspace="6" /></div><div style="background-color: #ffffff"><br /></div><div style="background-color: #ffffff">吐槽者聯盟盟主亨利市長又對海報有意見了。</div><div style="background-color: #ffffff"><br /></div><div style="background-color: #ffffff">你一定會覺得奇怪，為何市長老是找復仇者麻煩，不怕復仇者復仇嗎？說到底我還是要強調那句「愛之深責之切」啊，又尤其亨利市長畢生的願望，<font color="#ff0000">除了能當透明人之外，再來就是鋼鐵人了</font>，這部大戲對我以及所有漫畫迷與電影迷心中的份量那麼的重，發現什麼小細節有Bug大家的眼睛立馬會歪過去的是不是呢？</div><!-- CE -->
+                    
+                                <div></div>
+            </div>
+            <a name="more"></a>
+			            <div class="main">
+                            <!-- CS --><div class="pict"> <br /></div> <br /> 上一篇的<a href="http://blog.roodo.com/henrynipplecity/archives/40222779.html" target="_blank"><font color="#ff0000">復仇者聯盟海報</font></a>已經扯了一堆人物的比例、角度、景深等等的小瑕疵，沒想到中文版的主角海報也讓市長眼角一歪...，總之我們先來看看這些帥氣的主角群們： <img align="middle" border="0" src="http://pcdn1.rimg.tw/photos/4724130_7xm8w8m_l.jpg?132245" vspace="6" width="450" /> <img align="middle" border="0" src="http://pcdn1.rimg.tw/photos/4724124_5vibyop_l.jpg?132245" vspace="6" width="450" /> <img align="middle" border="0" src="http://pcdn1.rimg.tw/photos/4724123_9irpgh1_l.jpg?132245" vspace="6" width="450" /> <img align="middle" border="0" src="http://pcdn1.rimg.tw/photos/4724127_y1ftwtx_l.jpg?132245" vspace="6" width="450" /> <img align="middle" border="0" src="http://pcdn1.rimg.tw/photos/4724125_4c5chbs_l.jpg?132245" vspace="6" width="450" /> <img align="middle" border="0" src="http://pcdn1.rimg.tw/photos/4724126_d4og7xw_l.jpg?132245" vspace="6" width="450" /> <img align="middle" border="0" src="http://pcdn1.rimg.tw/photos/4724129_itkzl8k_l.jpg?132245" vspace="6" width="450" /> <img align="middle" border="0" src="http://pcdn1.rimg.tw/photos/4724128_mcwyto2_l.jpg?132245" vspace="6" width="450" /> <br /> <br /> <div>有沒有發現一個小小的缺點，那就是從第一張到最後一張都有點...歪，這不是錯覺，很明顯字明明是走置中排列，但一顆老鼠屎壞了整條置中了路線，那就是Marvel的LOGO是往右移的。</div><div><img align="middle" border="0" class="pict" src="http://pcdn1.rimg.tw/photos/4724110_ofqkhhq_l.jpg?132252" vspace="6" /></div><div><br /></div><div><br /></div><div>一部可說是本世紀最浩大的電影巨片，為何會犯這種錯？</div><div><img align="middle" border="0" class="pict" src="http://pcdn1.rimg.tw/photos/4724111_sefy4hb_l.jpg?132252" vspace="6" /></div><div><br /></div><div><br /></div><div><br /></div><div><br /></div><div>但如果你認為它錯，那可能真的小看了Marvel。<font color="#ff0000">這種排列絕對是經過莫名其妙的討論以及令人不解的研究所造成的。</font>怎麼說呢？所有的大公司都有小眉角，那些個眉角按照標準程序去執行與編排，非特殊原因是不可改變的。所以我們要說，我相信這絕對是經過某高層指點才讓它往一邊歪，我們也無法去移動它。</div><div><br /></div><div><br /></div><div>LOGO的問題真的造就成這條歪路嗎？其實它身邊的元素也是幫兇。</div><div><br /></div><div><br /></div><div>當我們把畫面切割至所有文字排列的區塊來檢視，不難發現<font color="#ff0000">所有文字塊的字級都太相近，但又各有意涵，比如說片名的「奧創紀元」與主角名、甚至與最底排的「全球首演在台灣」差不多，主從沒有區別，全擠在一起就是一個亂，甚至以為是內文字。</font></div><div><img align="middle" border="0" class="pict" src="http://pcdn1.rimg.tw/photos/4724109_zn7rcld_l.jpg?132252" vspace="6" /></div><div><br /></div><div><br /></div><div><br /></div><div>因此，我們必須做一些必要的調整，讓這區簡化並延伸至其他空間加以利用。</div><div><br /></div><div><br /></div><div>下方讓他們玩歪扭的置中沒關係，<font color="#ff0000">但這系列是主角海報啊！不強調主角名字（雖然大家都認識）怎麼行呢？</font>那我們就把角色名字強化，甚至讓它套用「復仇者聯盟」的字型試試看。</div><div><img align="middle" border="0" class="pict" src="http://pcdn1.rimg.tw/photos/4724108_i59ym4q_l.jpg?132252" vspace="6" /></div><div><br /></div><div><br /></div><div>套用好了，也與各小字區隔完成，但不該再繼續跑這裡疊蛋糕，我們到最上面玩吧。字移動到上方並不一定要走置中路線。</div><div><br /></div><div><br /></div><div><br /></div><div><br /></div><div>這時你會問市長「剛扯一堆字沒置中很蠢，現在又不置中你是玩我喔」</div><div><br /></div><div><br /></div><div><br /></div><div>我們這樣說吧，<font color="#ff0000">海報設計是活的，當你的海報的底盤方正，中上方的區塊自然讓你可隨心所欲的因應空間的變化去調整你的重量，道理要活用，切記啊。</font>因此以黑寡婦本人偏左為例，我們可以把「黑寡婦」三個字往右放。<br /><img align="middle" border="0" class="pict" src="http://pcdn1.rimg.tw/photos/4724107_som4sp8_l.jpg?132252" vspace="6" /><br /><br /></div> <br /> <br /> 最後要說的是，<font color="#ff0000">每張海報它被賦予的使命是不同的。</font>今天這個<strong><font color="#ff0000">主角系列</font></strong>的海報，「主角」就必須是海報該傳達的主題，<font color="#ff0000">相對來說其他的文字塊與角色名的主從關係必須做出直接、明快的拆解或縮放排列。</font> <br /> <br /> 觀影者或路人必須第一眼感受到這張海報傳達給他的訊息： <br /> <font color="#ff0000"><strong>復仇者聯盟2：奧創紀元&gt;黑寡婦&gt;2015.04.22&gt;全球首演在台灣</strong></font> <font color="#ff0000"><strong><br /></strong></font> <br /> 相同的變化我也一併處理於其他主角群海報， 我認為這樣處理之下，這系列的海報將更有份量。&nbsp;<br /><div><img align="middle" border="0" class="pict" src="http://pcdn1.rimg.tw/photos/4724119_i46f9ds_l.jpg?132245" vspace="6" />&nbsp;<img align="middle" border="0" class="pict" src="http://pcdn1.rimg.tw/photos/4724114_3be10op_l.jpg?132252" vspace="6" /> <img align="middle" border="0" class="pict" src="http://pcdn1.rimg.tw/photos/4724118_wyofv3r_l.jpg?132245" vspace="6" /> <img align="middle" border="0" class="pict" src="http://pcdn1.rimg.tw/photos/4724115_2mk6hpa_l.jpg?132252" vspace="6" /> <img align="middle" border="0" class="pict" src="http://pcdn1.rimg.tw/photos/4724120_y8oexri_l.jpg?132245" vspace="6" /> <img align="middle" border="0" class="pict" src="http://pcdn1.rimg.tw/photos/4724121_64crnc9_l.jpg?132245" vspace="6" /> <img align="middle" border="0" class="pict" src="http://pcdn1.rimg.tw/photos/4724116_ibwpv3n_l.jpg?132245" vspace="6" /> <img align="middle" border="0" class="pict" src="http://pcdn1.rimg.tw/photos/4724117_skpw8uy_l.jpg?132245" vspace="6" />&nbsp;<img align="middle" border="0" class="pict" src="http://pcdn1.rimg.tw/photos/4724107_som4sp8_l.jpg?132252" vspace="6" /><br /> （別問我為何一直放黑寡婦，因為我愛啊。） </div><div><br /></div><div><br /></div><div><br /></div><div><br /></div><div><br /></div><div><br /></div><div><div><font color="#ff0000" size="6"><strong>2015.04.16補充：</strong></font></div><div><br /></div><div>許多來自四面八方的建議，市長都收到了，我非常歡迎各界的指教，畢竟一個個性圓滑的射手座喜歡多看、多聽、多學習，才能吸收、成長、發展。</div><div><br /></div><div>首先我必須跟各位道個歉，<font color="#ff0000">因為我這次漏講了一句</font>之前在「<a href="http://blog.roodo.com/henrynipplecity/archives/40222779.html" target="_blank">復仇者聯盟海報</a>」、「<a href="http://blog.roodo.com/henrynipplecity/archives/41092201.html" target="_blank">玩命關頭七海報</a>」、「<a href="http://blog.roodo.com/henrynipplecity/archives/41341040.html" target="_blank">中華藝術學校網站</a>」文章都有提的就是：<font color="#ff0000">「我並不是把它改對，只是想幫忙把很醜的東西改的比較不醜一點點」，因為我漏寫這句造成部分網友誤會我想把復仇者主角海報「改美、改對」。</font></div><div><br /></div><div>實際上，成千上萬、稍微有點美感的朋友大概有這種疑慮就是：<font color="#ff0000">中文版的復仇者聯盟標準字有點醜。</font>沒關係，醜，我們就大聲說出來，但是我這篇文章的重點，是把它變美嗎？不，完全不是。我重點很明顯是希望各位<font color="#ff0000">「當你拿到一個很醜的東西，而且你不能改變它的時候，你必須帶著你那從學校、社會經驗習得的設計概念，去同化它，用一種系統化的方式讓醜的元素和諧」。</font></div><div><br /></div><div><strong>舉個例子，老闆請你製作一張海報，「大標」已定調為粗魯不堪的勘亭流體，希望你在下方加一句話做「副標」的角色，你難道會使用硬生生的黑體或明體嗎？不，你不會，因為你知道那樣破壞了整體的畫面規則，你知道比較圓、軟的主體放在硬、直的物件會產生衝突。</strong></div><div><br /></div><div><strong>於是你會使用手寫體或是粗細圓潤的字體去配合它，</strong></div><div><strong>讓他們的存在不突兀。</strong></div><div><br /></div><div><strong>但是重點來了，畫面醜不醜？</strong></div><div><strong>答案是：當然還是醜啊，為何大標要用那種字啊？</strong></div><div><br /></div><div><strong>可是問題也來了，你有沒有想要救它？</strong></div><div><strong>救它的當下改變副標字型是否也用到你所熟知的設計概念？是的。</strong></div><div><br /></div><div><br /></div><div><br /></div><div><strong><font size="6">這就是這篇文章的中心思想。</font></strong></div><div><br /></div><div><br /></div><div><br /></div><div><br /></div><div>以本篇文章的例子來說，那既然這麼醜，那就救救它，好嗎？</div><div><br /></div><div><br /></div><div><br /></div><div><strong><font size="6">答案是：不。</font></strong></div><div><br /></div><div><font color="#800000">一、沒有必要由我來執行這件事，當原設計使用「新藝體」來變形改造成復仇者的標準字，往後的延伸應該由他來處理至盡善盡美，主角名或重點字用「新藝體」不是我想的，這是設計概念啊，一張海報不能超過三種字體處理，規則定調後其他元素該套用，要我解釋什麼呢？如果原本黑字好看我絕對會用黑字，這是設計學上的一致性、系統化，再多扯下去會扯得沒完的。</font></div><div><font color="#800000"><br /></font></div><div><font color="#800000">二、我願意截圖、挖圖，每篇花六個小時在這邊寫復仇者海報、玩命關頭海報，甚至是藝術學校網站，不是要救它們，只是跟各位分享唯一的一個重點：設計時有許多的原理與概念是絕對不能忽略的。但我不會再花一倍的時間去把它改對、改好，原因很簡單，我就算改出了一個完美無缺的標準字、天下無敵的電影海報，他們也不會拿來用啊。</font></div><div><font color="#800000"><br /></font></div><div><font color="#800000">三、我常常再做許多成功案例，譬如</font><a href="http://blog.roodo.com/henrynipplecity/archives/42817200.html" target="_blank"><strong>東尼大木</strong></a><font color="#800000">這篇，非必要我也不會常拿這些海報來聊廣告設計，其必要性就是我真的愛它們，希望將瑕疵從-80改成-50，如此而已。</font></div></div><div><font color="#800000"><br /></font></div><div><font color="#800000"><br /></font></div><div>我是由衷感謝所有網友的指正，有誤會我也願意解釋，謝謝大家不吝賜教！</div><!-- CE -->
+                            <div></div><br clear="all">
+            </div>
+        
+                    <div class="main">
+                <li class="stwitter" style="float:left;list-style-type:none;margin-left:3px;"><a href="javascript:;" onclick="window.open(&#39;http://twitter.com/home/?status=&#39;+encodeURIComponent(document.title+&#39; &#39;+location.href))"><img src="http://cdn.rimg.tw/blog/images/clear.gif" border="0" width="15" height="15"></a></li>
+                <li class="splurk" style="float:left;list-style-type:none;margin-left:3px;"><a href="javascript:;" onclick="window.open(&#39;http://www.plurk.com/?status=&#39;+encodeURIComponent(location.href+&#39; (&#39;+document.title+&#39;)&#39;))"><img src="http://cdn.rimg.tw/blog/images/clear.gif" border="0" width="15" height="15"></a></li>
+                <li class="sfb" style="float:left;list-style-type:none;margin-left:3px;margin-right:3px;"><a href="javascript:;" onclick="window.open(&#39;http://www.facebook.com/share.php?u=&#39;+encodeURIComponent(location.href)+&#39;&t=&#39;+document.title)"><img src="http://cdn.rimg.tw/blog/images/clear.gif" border="0" width="15" height="15"></a></li>
+                <g:plusone href="http://blog.roodo.com/henrynipplecity/archives/44048150.html" size="small"></g:plusone>
+                		<span id="fb-root"></span>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1&appId=107286602645990";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		
+		<span class="fb-like" data-href="http://blog.roodo.com/henrynipplecity/archives/44048150.html" data-send="false" data-layout="button_count" data-width="30" data-show-faces="false" data-font="arial"></span>            </div>
+        
+                                
+                                                                            <div class="main">  
+                <h3>您可能有興趣：</h3><div><img style="vertical-align:middle;" src="http://blog.roodo.com/_img/icon_article.gif" border=0> <a href="http://blog.roodo.com/henrynipplecity/archives/16096533.html" class="aposted">【好書，不推嗎？】這不是一部露點電影 之 這不是一部愛情電影</a></div><div><img style="vertical-align:middle;" src="http://blog.roodo.com/_img/icon_article.gif" border=0> <a href="http://blog.roodo.com/henrynipplecity/archives/20946618.html" class="aposted">【檢查】雞排妹-鄭佳甄寫真集</a></div><div><img style="vertical-align:middle;" src="http://blog.roodo.com/_img/icon_article.gif" border=0> <a href="http://blog.roodo.com/henrynipplecity/archives/27720826.html" class="aposted">我是市長，我收集內衣型錄</a></div><div><img style="vertical-align:middle;" src="http://blog.roodo.com/_img/icon_article.gif" border=0> <a href="http://blog.roodo.com/henrynipplecity/archives/16660093.html" class="aposted">過中秋．圈乳頭</a></div><img style="vertical-align:middle;" src="http://blog.roodo.com/_img/icon_article.gif" border=0> <a href="http://blog.roodo.com/henrynipplecity/archives/19912240.html" class="aposted">我們的創意不是給你們踩在地上爽的</a>
+                <!-- ad code in displayCatArticle -->
+                </div>
+                        <div class="dir">
+                <a class="amenu" href="http://blog.roodo.com/henrynipplecity/archives/43493588.html"><< 安海瑟薇對嘴PK大賽預告再看一遍的原因是...</a>                | <a class="amenu" href="http://blog.roodo.com/henrynipplecity/">回blog首頁</a> |
+                <a class="amenu" href="http://blog.roodo.com/henrynipplecity/archives/44118039.html">瘋狂麥斯：憤怒道預告再看一遍的原因是... >></a>            </div>
+            <div class="posted">
+                henryavn 發表於<a class="aposted" href="http://www.roodo.com/">樂多</a>
+                                 │<a class="aposted" href="#comments">回應(0)</a>
+                                                 │<a class="aposted" href="#trackback">引用(0)</a>
+                                                 │<a href='http://blog.roodo.com/henrynipplecity/archives/cat_651161.html' class='aposted' data-ajax='false'>市長觀點</a>
+                
+                                │<a class="aposted" href='javascript:void(0)' onclick="JAVASCRIPT:backupConfirm();">編輯本文</a>
+                                <br>
+                <div class="tools">
+                                        樂多分類：<A class="aposted" href="http://blog.roodo.com/categories/video">電影/TV</a>
+                                        │<a class="aposted" href="http://reader.roodo.com/henrynipplecity/archives/44048150.html" target="_blank" title="復仇者聯盟：奧創紀元主角海報歪了（更新：補充說明）">切換閱讀版型</a>
+                                        │昨日人次：3 │累計人次：40658
+                                        
+                </div>      
+        
+            </div>  
+
+                                                <div class="main">
+  <div class="adbox">
+    <center>
+      <table cellSpacing="0" cellPadding="0" border="0" align="center">
+        <tbody>
+          <tr>
+            <td>
+              <DIV class="sidetitle">贊助商廣告</div>
+              <iframe src="http://rd.youthwant.com.tw/dodo.php?adjs=adspac(%22/w=468/h=60/site=1078/bk=12466%22)" frameborder="0" scrolling="no" width="468" height="60"></iframe>
+            </td>
+          </tr>
+          <tr>
+            <td align="right" colSpan="3" class="adtext">&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+    <div id='ypaAdWrapper-roodo_1'></div>
+    <script type="text/javascript" src="http://ad.sitemaji.com/ypa/roodo.js"></script>
+    
+  </div>
+</div>                                                        <a name="trackback"></a>
+                <h3 class="title">引用URL</h3>
+                <div class="trackback-url">
+                    http://cgi.blog.roodo.com/trackback/44048150  
+                    <span class="scopyurl">
+                        <input type="image" width="55" height="18" src="http://cdn.rimg.tw/blog/images/clear.gif" onClick="javascript:CopyText('http://cgi.blog.roodo.com/trackback/44048150');">
+                    </span>
+                </div>
+             
+                                                                <br>
+            <fb:comments href="http://blog.roodo.com/henrynipplecity/archives/44048150.html" num_posts="10" width="450" colorscheme="light"></fb:comments>
+                                        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js' type='text/javascript'></script>
+                    
+                
+                <a name="commentForm"></a>
+		<table cellpadding="5" cellspacing="0" border="0" class="form">
+		<form name="comment_form" action="http://cgi.blog.roodo.com/comment#commentForm" method="POST" onSubmit="javacript:setCommentAuthor(this);">
+		<input type="hidden" name="aID" value="44048150">
+		<input type="hidden" name="bID" value="402631">
+		<input type="hidden" name="security" value="08747d94">
+		<input type="hidden" id="errorMsg" name="errorMsg" value="">
+		<input type="hidden" id="username" name="username" value="">
+		<tr>
+			<td><label for="author">姓名 : </label></td>
+			<td><input id="author" name="author"></td> 
+		</tr>
+		<tr>
+			<td valign="top"><label for="email">Email : </label></td>
+			<td><input id="email" name="email"></td>
+		</tr>
+		<tr>
+			<td valign="top"><label for="url">URL : </label></td>
+			<td><input id="url" name="url"></td>
+		</tr>
+		<tr>
+			<td valign="top"><label for="url">回應狀態: </label></td>
+			<td>
+								<input type="radio" name="cType" value="public" checked><label for="url">公開   </label>
+				<input type="radio" name="cType" value="private" ><label for="url">私密   </label>
+							</td>
+		</tr>
+				<tr>
+			<td valign="top">
+				<label for="url">驗證碼 : </label>
+			</td>
+			<td>
+				<img src="http://cgi.blog.roodo.com/ccode" style="vertical-align: middle;">&nbsp;<br>
+				<input id="ccode_ans" name="ccode_ans">&nbsp;
+				<label for="ccode_ans"><span class="ccode_info">( 請依顯示文字填入英文小寫 )<br>
+								<a href="JavaScript:rebuildimg()">重新產生驗證碼</a>
+								</span></lable>
+			</td>
+		</tr>
+				<tr>
+			<td valign="top">
+											<img class="myicon" src="http://static.roodo.com/blog/me.gif" border=0>
+										</td>
+			<td>
+			<input id="bake" type="checkbox" name="cookie" style="padding:0;margin:0px;"> <label for="bake">記住我的資訊</label><br>
+							<input id="myicon" type="checkbox" name="myicon" style="padding:0;margin:0px;"> <label for="myicon">顯示我的圖像 ( 
+								<a href="http://friends.roodo.com">登入 或 申請個人圖像</a> 
+								)</label>
+						</td>
+		</tr>		
+		<tr>
+			<td valign="top" colspan="2"><label for="text">回應內容 : </label><br>
+			<textarea id="text" name="comments" rows="10" cols="10" style="margin-left: 0px; margin-right: 0px; width: 100%;"></textarea></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+								<input name="preview" type="submit" value=" 預覽內容 ">
+								<input name="save" type="submit" value=" 直接送出 ">
+			</td>
+		</tr>
+		</form>
+		</table>
+<script type="text/javascript">
+	function rebuildimg()
+	{
+		document.getElementById('errorMsg').value='hide';
+		document.comment_form.submit();
+	}
+</script>            
+                <div class="pagetop"><a class="aposted" href="#top">回最上方</a></div>
+
+        </div> <!-- blogbody -->
+    </div> <!-- blog -->
+    
+    </div>
+        <DIV id=links>
+    <!-- plugins start -->
+						
+<div class="sidetitle">市政信箱</div>
+<DIV class="side" id="hps22483582">
+<DIV class="sidebody">
+	市政信箱：
+只要與乳頭、激凸
+有關的影像、影片連結，
+都歡迎投稿給市長！！
+a1239314@ms25.hinet.net
+</DIV>
+</DIV>				
+					
+			<div class="sidetitle">新點子<a class="aside" href="http://blog.roodo.com/henrynipplecity/rss.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0"  width="12" height="12"></span></a></div>
+<div class="side">
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/65810841.html">搬家公告</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/65796105.html">艾莉塔：戰鬥天使該看一遍的原因是...</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/65796116.html">驚濤佈局該看一遍的原因是...</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/65799132.html">幸福綠皮書該看一遍的原因是...</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/65796114.html">地獄怪客：血后的崛起 亨利市長繪製紅包袋開始搶囉！</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/65791080.html">91屆奧斯卡入圍者亮點總整理</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/65799130.html">異裂該看一遍的原因是...</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/65787074.html">邊境奇譚該看一遍的原因是...</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/65787073.html">窒息該看一遍的原因是...</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/65787072.html">賭命運轉手該看一遍的原因是...</a></div>
+</div>			
+			<script>
+	function showSubCat(pCID)
+	{
+		$('#sub-cat-'+pCID).toggle();
+		if($('#sub-cat-'+pCID).css('display') == 'none')
+		{
+			$('#sub-cat-img-'+pCID).attr('src','http://static.roodo.com/blog/expand2.gif');
+		}else{
+			$('#sub-cat-img-'+pCID).attr('src','http://static.roodo.com/blog/collapse2.gif');
+		}
+	}
+</script>
+<div class="sidetitle">點點分類</div>
+<div class="side">
+	<div class="sidebody">
+				<img border="0" style="cursor: pointer;" src="http://static.roodo.com/blog/expand2.gif" id="sub-cat-img-651161" onclick="showSubCat(651161)">
+				<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_651161.html">市長觀點 (50)</a>
+		<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_651161.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0" width="12" height="12"></span></a>
+		<div id="sub-cat-651161" style="margin-left:12px;display:none">&nbsp;&nbsp;&nbsp;&nbsp;<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_888447.html">粉絲團 (5)&nbsp;<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_888447.xml"><img src="http://blog.roodo.com/_img/feed-icon-12x12.gif" alt="feedicon" border="0"></a><br></div>
+	</div>
+	<div class="sidebody">
+								&nbsp;&nbsp;&nbsp;&nbsp;
+						
+				<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_651157.html">激點 (128)</a>
+		<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_651157.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0" width="12" height="12"></span></a>
+		
+	</div>
+	<div class="sidebody">
+								&nbsp;&nbsp;&nbsp;&nbsp;
+						
+				<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_651159.html">露點 (139)</a>
+		<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_651159.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0" width="12" height="12"></span></a>
+		
+	</div>
+	<div class="sidebody">
+								&nbsp;&nbsp;&nbsp;&nbsp;
+						
+				<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_651163.html">三點 (10)</a>
+		<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_651163.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0" width="12" height="12"></span></a>
+		
+	</div>
+	<div class="sidebody">
+								&nbsp;&nbsp;&nbsp;&nbsp;
+						
+				<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_651255.html">波點 (6)</a>
+		<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_651255.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0" width="12" height="12"></span></a>
+		
+	</div>
+	<div class="sidebody">
+								&nbsp;&nbsp;&nbsp;&nbsp;
+						
+				<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_651257.html">AV點 (21)</a>
+		<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_651257.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0" width="12" height="12"></span></a>
+		
+	</div>
+	<div class="sidebody">
+								&nbsp;&nbsp;&nbsp;&nbsp;
+						
+				<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_888443.html">MV點 (5)</a>
+		<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_888443.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0" width="12" height="12"></span></a>
+		
+	</div>
+	<div class="sidebody">
+								&nbsp;&nbsp;&nbsp;&nbsp;
+						
+				<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_887975.html">新聞點 (13)</a>
+		<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_887975.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0" width="12" height="12"></span></a>
+		
+	</div>
+	<div class="sidebody">
+								&nbsp;&nbsp;&nbsp;&nbsp;
+						
+				<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_651259.html">雜點 (24)</a>
+		<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_651259.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0" width="12" height="12"></span></a>
+		
+	</div>
+	<div class="sidebody">
+								&nbsp;&nbsp;&nbsp;&nbsp;
+						
+				<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_998804.html">專欄 (31)</a>
+		<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_998804.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0" width="12" height="12"></span></a>
+		
+	</div>
+	<div class="sidebody">
+								&nbsp;&nbsp;&nbsp;&nbsp;
+						
+				<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_1010738.html">寫真點 (3)</a>
+		<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_1010738.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0" width="12" height="12"></span></a>
+		
+	</div>
+	<div class="sidebody">
+								&nbsp;&nbsp;&nbsp;&nbsp;
+						
+				<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_1697202.html">兩性 (3)</a>
+		<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_1697202.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0" width="12" height="12"></span></a>
+		
+	</div>
+	<div class="sidebody">
+								&nbsp;&nbsp;&nbsp;&nbsp;
+						
+				<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_1817186.html">粉絲團 (1)</a>
+		<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_1817186.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0" width="12" height="12"></span></a>
+		
+	</div>
+	<div class="sidebody">
+								&nbsp;&nbsp;&nbsp;&nbsp;
+						
+				<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_1830985.html">工商 (10)</a>
+		<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_1830985.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0" width="12" height="12"></span></a>
+		
+	</div>
+	<div class="sidebody">
+								&nbsp;&nbsp;&nbsp;&nbsp;
+						
+				<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_4062465.html">短評 (148)</a>
+		<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_4062465.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0" width="12" height="12"></span></a>
+		
+	</div>
+	<div class="sidebody">
+								&nbsp;&nbsp;&nbsp;&nbsp;
+						
+				<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_4384300.html">JOJO冒險野郎 (3)</a>
+		<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_4384300.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0" width="12" height="12"></span></a>
+		
+	</div>
+	<div class="sidebody">
+								&nbsp;&nbsp;&nbsp;&nbsp;
+						
+				<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_4402970.html">美胸大回顧 (12)</a>
+		<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_4402970.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0" width="12" height="12"></span></a>
+		
+	</div>
+	<div class="sidebody">
+								&nbsp;&nbsp;&nbsp;&nbsp;
+						
+				<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_4403856.html">開眼E週報 (8)</a>
+		<a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/cat_4403856.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0" width="12" height="12"></span></a>
+		
+	</div>
+</div>			
+			<div class="sidetitle">大家來找碴<a class="aside" href="http://blog.roodo.com/henrynipplecity/recent-comment.xml"><span class="srss12"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="feedicon" border="0"  width="12" height="12"></span></a></div>
+<div class="side">
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/58922448.html#comment-25501600">市長短評：JKF捷克論壇救了成人博覽會？</a>(簡志名)</div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/62571609.html#comment-25497166">黑豹該看一遍的原因是...</a>(機電消防公司)</div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/44270667.html#comment-25424024">歌喉讚再看一遍的原因是...</a>(hank)</div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/62362420.html#comment-25411964">乒乓少女大逆襲該看一遍的原因是...</a>(水筆)</div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/62354553.html#comment-25411491">一生該去看一次濱崎真緒的原因是...</a>(路人甲)</div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/61997368.html#comment-25408197">女神降臨～亨利市長帶你去看明日花綺羅！</a>(Aaron)</div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/61691534.html#comment-25406243">亨利市長觀展心得：好一個野心勃勃的TAE成人展</a>(桃色機関車)</div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/61691534.html#comment-25406242">亨利市長觀展心得：好一個野心勃勃的TAE成人展</a>(桃色機関車)</div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/61151713.html#comment-25400793">電影版聲之形我看一遍的原因是...</a>(JayFJ)</div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/archives/60444958.html#comment-25396925">亨利市長整理：2016激凸、露點、美胸大回顧（中篇）</a>(DChild)</div>
+</div>	
+			
+						
+<div class="sidetitle">乳頭粉濕團</div>
+<DIV class="side" id="hps22483586">
+<DIV class="sidebody">
+	<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fhenryoocity&width=350px&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=427" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:350px; height:427px;background-color:#ffffff;" allowTransparency="true"></iframe>
+</DIV>
+</DIV>				
+					
+						
+<div class="sidetitle">大家來點名</div>
+<DIV class="side" id="hps22483587">
+<DIV class="sidebody">
+	<div align="center"><a href="http://www.amazingcounter.com"><img border="0" src="http://cb.amazingcounters.com/counter.php?i=2634341&c=7903336" alt="xanga stats"></a><br><a href="http://www.musicianscoupons.com/">Electronic Drum Kit</a></div>
+</DIV>
+</DIV>				
+					
+			<div class="sidetitle">乳頭女星中英對照指南</div>
+<div class="side">
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104001/艾比柯妮許" target="_blank">艾比柯妮許/Abbie Cornish</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/405697/艾莉莎黛娃洛絲" target="_blank">艾莉莎黛娃洛絲/Alexa Davalos</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104027/艾莉森拉曼" target="_blank">艾莉森拉曼/Alison Lohman</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/218171/亞曼達塞佛瑞" target="_blank">亞曼達塞佛瑞/Amanda Seyfried</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/420543/安柏赫德" target="_blank">安柏赫德/Amber Heard</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104023/艾咪史馬特" target="_blank">艾咪史馬特/Amy Smart</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/456881/安娜貝兒%E2%80%A7黑特曼" target="_blank">安娜貝兒‧黑特曼/Annabelle Hettman</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/129245/安吉莉娜裘莉" target="_blank">安吉莉娜裘莉/Angelina Jolie</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/156589/安海瑟薇" target="_blank">安海瑟薇/Anne Hathaway</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/199053/安海契" target="_blank">安海契/Anne Heche</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/319729/艾希莉葛林" target="_blank">艾希莉葛林/Ashley Greene</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103991/艾希莉賈德" target="_blank">艾希莉賈德/Ashley Judd</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/206879/奧黛莉朵杜" target="_blank">奧黛莉朵杜/Audrey Tautou</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/156591/畢由菲力浦" target="_blank">畢由菲力浦/Bijou Phillips</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104021/卡麥蓉迪亞" target="_blank">卡麥蓉迪亞/Cameron Diaz</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103969/卡拉裘吉諾" target="_blank">卡拉裘吉諾/Carla Gugino</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/176351/Cindy%20Sampson" target="_blank">辛蒂辛普森/Cindy Sampson</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104037/莎莉賽隆" target="_blank">莎莉賽隆/Charlize Theron</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/389719/恰拉卡薩琳" target="_blank">恰拉卡薩琳/Chiara Caselli</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103959/夏綠蒂安亞娜" target="_blank">夏綠蒂安亞娜/Charlotte Ayanna</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103983/克莉絲汀娜蕾茜" target="_blank">克莉絲汀娜蕾茜/Christina Ricci</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/199035/克蕾曼絲波西" target="_blank">克蕾曼絲波西/Clémence Poésy</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/120341/康妮尼爾森" target="_blank">康妮尼爾森/Connie Nielsen</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/375283/Delphine%20Chaneac" target="_blank">德爾菲娜‧尚內亞克/Delphine Chaneac</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103957/茱兒芭利摩" target="_blank">茱兒芭利摩/Drew Barrymore</a></div>
+	<div class="sidebody"><a class="aside" href="/Elisha Cuthbert  http://blog.roodo.com/henrynipplecity/tag/152293/艾莉莎庫絲柏" target="_blank">艾莉莎庫絲柏</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/141187/伊莉莎白柏克莉" target="_blank">伊莉莎白柏克莉/Elizabeth Berkley</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/206871/伊莉莎白赫莉" target="_blank">伊莉莎白赫莉/Elizabeth Hurley</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/107481/艾曼紐琵雅" target="_blank">艾曼紐琵雅/Emmanuelle Beart</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/412341/曼紐爾克莉琪" target="_blank">曼紐爾克莉琪/Emmanuelle Chriqui</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/454179/愛蜜莉布朗寧" target="_blank">愛蜜莉布朗寧/Emily Browning</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/445317/伊麗莎白班克斯" target="_blank">伊麗莎白班克斯/Elizabeth Banks</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/143331/依娃葛林" target="_blank">依娃葛林/Eva Green</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103961/伊娃曼德絲" target="_blank">伊娃曼德絲/Eva Mendes</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/146399/葛妮絲派特洛" target="_blank">葛妮絲派特洛/Gwyneth Paltrow</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103975/荷莉貝瑞" target="_blank">荷莉貝瑞/Halle Berry</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/129613/海瑟葛拉罕" target="_blank">海瑟葛拉罕/Heather Graham</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104447/海倫娜波漢卡特" target="_blank">海倫娜波漢卡特/Helena Bonham Carter</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/140137/艾拉費雪" target="_blank">艾拉費雪/Isla Fisher</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103967/潔米金" target="_blank">潔米金/Jaime King</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/287121/珍考克斯基" target="_blank">珍考克斯基/Jane Krakowski</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104039/珍妮佛洛佩茲" target="_blank">珍妮佛洛佩茲/Jennifer Lopez</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/330483/珍妮佛樂芙休伊" target="_blank">珍妮佛樂芙休伊/Jennifer Love Hewitt</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104015/潔西卡艾芭" target="_blank">潔西卡艾芭/Jessica Alba</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104017/潔西卡貝兒" target="_blank">潔西卡貝兒/Jessica Biel</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104019/珍娜費雪" target="_blank">珍娜費雪/Jenna Fischer</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/379283/珍妮佛嘉納" target="_blank">珍妮佛嘉納/Jennifer Garner</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104013/茱蒂佛斯特" target="_blank">茱蒂佛斯特/Jodie Foster</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/240737/茱莉亞羅勃茲" target="_blank">茱莉亞羅勃茲/Julia Roberts</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/330899/茱莉安摩兒" target="_blank">茱莉安摩兒/Julianne Moore</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/444385/茱莉葉路易絲" target="_blank">茱莉葉路易絲/Juliette Lewis</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/124773/凱特哈德森" target="_blank">凱特哈德森/Kate Hudson</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103993/凱特瑪拉" target="_blank">凱特瑪拉/Kate Mara</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/33257/凱特溫絲蕾" target="_blank">凱特溫絲蕾/Kate Winslet</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/380019/凱蒂費瑟史東" target="_blank">凱蒂費瑟史東/Katie Featherston</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/405411/凱蒂荷姆絲" target="_blank">凱蒂荷姆絲/Katie Holmes</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/209599/凱瑟琳海格" target="_blank">凱瑟琳海格/Katherine Heigl</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/398933/Kareena%20Kapoor" target="_blank">卡琳娜·卡普/Kareena Kapoor</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103987/綺拉奈特莉" target="_blank">綺拉奈特莉/Keira Knightley</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/321297/克絲汀貝爾" target="_blank">克絲汀貝爾/Kristen Bell</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/321293/克絲汀戴維絲" target="_blank">克絲汀戴維絲/Kristin Davis</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/115783/克莉絲汀鄧斯特" target="_blank">克莉絲汀鄧斯特/Kirsten Dunst</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/171805/克莉絲汀史都華" target="_blank">克莉絲汀史都華/Kristen Stewart</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/176347/蘿倫李史密斯" target="_blank">蘿倫李史密斯/Lauren Lee Smith</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103995/琳納海蒂" target="_blank">琳納海蒂/Lena Headey</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/361843/麗芙泰勒" target="_blank">麗芙泰勒/Liv Tyler</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/217405/劉玉玲" target="_blank">劉玉玲/Lucy Liu</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103989/Maggie%20Q" target="_blank">Maggie Q</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/199055/瑪格麗塔蕾薇瓦" target="_blank">瑪格麗塔蕾薇瓦/Margarita Levieva</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/118475/瑪莉亞貝蘿" target="_blank">瑪莉亞貝蘿/Maria Bello</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104003/瑪莉詠柯蒂亞" target="_blank">瑪莉詠柯蒂亞/Marion Cotillard</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104007/瑪琳艾珂曼" target="_blank">瑪琳艾珂曼/Malin Akerman</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/176349/瑪莉薛頓" target="_blank">瑪莉薛頓/Marley Shelton</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104005/瑪莉莎湯美" target="_blank">瑪莉莎湯美/Marisa Tomei</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/80397/梅根福克斯" target="_blank">梅根福克斯/Megan Fox</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/335425/米娜蘇瓦利" target="_blank">米娜蘇瓦利/Mena Suvari</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104031/蜜雪兒摩納漢" target="_blank">蜜雪兒摩納漢/Michelle Monaghan</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/304109/蜜雪兒威廉絲" target="_blank">蜜雪兒威廉絲/Michelle Williams</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/352763/蜜拉喬娃薇琪" target="_blank">蜜拉喬娃薇琪/Milla Jovovich</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/414295/Mini%20Anden" target="_blank">米妮安頓/Mini Anden</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103955/莫妮卡貝露琪" target="_blank">莫妮卡貝露琪/Monica Bellucci</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104029/娜歐蜜哈里絲" target="_blank">娜歐蜜哈里絲/Naomie Harris</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103985/娜歐蜜華茲" target="_blank">娜歐蜜華茲/Naomi Watts</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104033/娜塔莉波曼" target="_blank">娜塔莉波曼/Natalie Portman</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/22865/妮可基嫚" target="_blank">妮可基嫚/Nicole Kidman</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103979/歐嘉%E2%80%A7柯瑞蘭寇" target="_blank">歐嘉‧柯瑞蘭寇/Olga Kurylenko</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/469081/奧利維亞魏爾德" target="_blank">奧利維亞魏爾德/Olivia Wilde</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103999/寶拉巴頓" target="_blank">寶拉巴頓/Paula Patton</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/117497/潘妮洛普克魯茲" target="_blank">潘妮洛普克魯茲/Penelope Cruz</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/176345/瑞秋比爾森" target="_blank">瑞秋比爾森/Rachel Bilson</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/114573/瑞秋布蘭查德" target="_blank">瑞秋布蘭查德/Rachel Blanchard</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/306253/蕾秋麥亞當斯" target="_blank">蕾秋麥亞當斯/Rachel McAdams</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103997/瑞秋懷茲" target="_blank">瑞秋懷茲/Rachel Weisz</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104011/蕾達哈米栔爾" target="_blank">蕾達哈米栔爾/Radha Mitchell</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103971/蕾貝卡霍爾" target="_blank">蕾貝卡霍爾/Rebecca Hall</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104035/瑞絲薇斯朋" target="_blank">瑞絲薇斯朋/Reese Witherspoon</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/131253/芮妮齊薇格" target="_blank">芮妮齊薇格/Renee Zellweger</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/143323/蘿莎莉道森" target="_blank">蘿莎莉道森/Rosario Dawson</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/109107/蘿絲麥高文" target="_blank">蘿絲麥高文/Rose McGowan</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103977/莎瑪海耶克" target="_blank">莎瑪海耶克/Salma Hayek</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103973/史嘉蕾喬韓森" target="_blank">史嘉蕾喬韓森/Scarlett Johansson</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104009/莎瑪布萊兒" target="_blank">莎瑪布萊兒/Selma Blair</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/342013/塞瑪布萊兒" target="_blank">塞瑪布萊兒/Selma Blair</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/287123/席艾娜米勒" target="_blank">席艾娜米勒/Sienna Miller</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/181717/雪歌妮薇佛" target="_blank">雪歌妮薇佛/Sigourney Weaver</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/107601/夏儂伊莉莎白" target="_blank">夏儂伊莉莎白/Shannon Elizabeth</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/9843/莎朗史東" target="_blank">莎朗史東/Sharon Stone</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/210649/蘇菲瑪索" target="_blank">蘇菲瑪索/Sophie Marceau </a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103963/Stormy%20Daniels" target="_blank">史朵咪丹妮爾/Stormy Daniels</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/412339/塔琳曼妮" target="_blank">塔琳曼妮/Taryn Manning</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/125161/譚蒂紐頓" target="_blank">譚蒂紐頓/Thandie Newton</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/335427/莎拉博琪" target="_blank">莎拉博琪/Thora Birch</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/449043/蒂娜費" target="_blank">蒂娜費/Tina Fey</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/104025/鄔瑪舒曼" target="_blank">鄔瑪舒曼/Uma Thurman</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/430195/薇蘭蒂普拉夏朵" target="_blank">薇蘭蒂普拉夏朵/Violante Placido</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103965/薇諾娜瑞德" target="_blank">薇諾娜瑞德/Winona Ryder</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/415855/Yaya%20DaCosta" target="_blank">雅雅達克斯塔/Yaya DaCosta</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/181715/柔伊莎達娜" target="_blank">柔伊莎達娜/Zoe Saldana</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/434413/MIHIRO" target="_blank">みひろ/MIHIRO</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/106899/韋苓" target="_blank">韋苓</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/129311/%20舒淇" target="_blank">舒淇/Qi Shu</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/103981/莫小奇" target="_blank">莫小奇</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/10489/章子怡" target="_blank">章子怡/Ziyi Zhang</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/63305/鞏俐" target="_blank">鞏俐/Li Gong</a></div>
+	<div class="sidebody"><a class="aside" href="http://blog.roodo.com/henrynipplecity/tag/341485/陳子璇" target="_blank">陳子璇</a></div>
+</div>			
+			
+<!-- plugins end/-->
+<!--
+<div class="sidetitle">Facebook 推薦</div>
+<DIV class="side">
+<DIV class="sidebody">
+  <div class="fb-recommendations" data-site="blog.roodo.com" data-width="180" data-height="320" data-header="true"></div>
+</DIV>
+</DIV>
+-->
+
+        
+	<div class="syndicate">
+	<a href="http://blog.roodo.com/henrynipplecity/rss.xml"><li class="sbrss" style="list-style-type:none;"><img src="http://cdn.rimg.tw/blog/images/clear.gif" alt="[Syndicate this site]" title="Syndicate RSS feed" width="131" height="15" border="0" /></li></a><br>
+	</div>
+<!-- syndicate begin 
+	<div class="syndicate">
+	<a href="http://blog.roodo.com/henrynipplecity/atom.xml"><img class="satom" src="http://cdn.rimg.tw/blog/images/clear.gif" alt="[Syndicate this site]" title="Syndicate ATOM feed" width="131" height="15" border="0" /></a>
+	</div>-->
+	<!-- syndicate end -->
+	
+		<!-- powered begin
+	<div class="syndicate">
+	<a href="http://blog.roodo.com/"><img class="sbblog" src="http://cdn.rimg.tw/blog/images/clear.gif" alt="樂多日誌" title="樂多日誌" width="131" height="34" border="0" align="center" /></a>
+	</div> -->
+	<!-- powered end -->    </DIV>
+
+
+                        <link href="/_img/ad/lightbox/css/lightbox.css" rel="stylesheet" />
+<script src="http://rd.youthwant.com.tw/scripts/youthad.js?rnd=20160307"></script>
+<script>
+    $(function(){
+        var ua = window.navigator.userAgent.toLowerCase();
+        var isIE6 = ua.indexOf("msie 6.0");
+        var oIdleAdTimer;
+        //var dt = new Date();
+        //var year=dt.getFullYear();
+        //var month=(dt.getMonth())+1;
+        //if(month<10) month='0'+month;
+        //var day=dt.getDate();
+        //var checkDay=year+month+day;
+        //if(checkDay<=20160120) var iIdleAdDrution = 1000*60;
+        //else 
+        var iIdleAdDrution = 1000*120;
+        function fnIdleAdCountdown( t ){
+            t = t ? t : 0;
+            clearTimeout(oIdleAdTimer);
+            if ( t!=1 )
+            {
+                // $('body').css('overflow','');
+                $('.light_box_wrap').css('overflow','hidden');
+                $('#idleAd').hide();
+            }
+            oIdleAdTimer = setTimeout(function(){
+                // $('body').css('overflow','hidden');
+                $('.light_box_wrap').css('overflow','');
+                $('#idleAd').show();
+            },iIdleAdDrution);
+        };
+
+        if (!ua.match(/iPhone/i) && !ua.match(/iPad/i) && !ua.match(/android/) && isIE6 == -1){
+            fnIdleAdCountdown(1);
+
+            $('#idleAd .x_btn').click(function(){
+                fnIdleAdCountdown();
+            });
+
+            $('body').click(function(){
+                fnIdleAdCountdown();
+            });
+
+            $('.light_box').click(function(e){
+                e.stopPropagation();
+            });
+
+            $(window).scroll(function(){
+                fnIdleAdCountdown(1);
+            });
+
+            $(document).keypress(function(){
+                fnIdleAdCountdown(1);
+            });
+        }
+    });
+</script>
+<div class="light_box_wrap" id="idleAd" style="display:none;">
+    <div class="light_box grayborder">
+        <button class="x_btn">x</button>
+        <!-- <div class="arrow_doodles">
+            <img src="/_img/ad/lightbox/images/arrow_doodles_1.png" />
+        </div> -->
+        <div class="light_box_header">
+            <div class="boxlogo">
+                <a href="http://blog.roodo.com">
+                    <img src="/_img/ad/lightbox/images/roodo_logo_en.png" width="100" />
+                </a>
+            </div>
+            <div class="boxtitle">
+                <p class="font_gray">嗨，你已經離開這個頁面超過90秒囉，可以點框框外的地方，或是按右上角叉叉把我關掉喔！</p>
+            </div>
+        </div>
+        <div class="light_box_cont">
+            <div class="main_cont float_l">
+                <div class="top_cont">
+                    <div class="small_pic float_l grayborder">
+                        <a href="http://blog.roodo.com/henrynipplecity">
+                            <img src="/_img/ad/lightbox/images/nopic_r_pic.png" style="height:100px;">
+                        </a>
+                    </div>
+                    <div class="blog_box float_r grayborder">
+                        <h1>日誌名稱：<a href="http://blog.roodo.com/henrynipplecity">亨利乳頭市</a></h1>
+                        <h1>文章數量：<a href="http://blog.roodo.com/henrynipplecity/listall.html">655</a></h1>
+                    </div>
+                    <p class="clear"></p>
+                </div>
+                <div class="bottom_cont grayborder">
+                    <h1>你可能有興趣的文章：</h1>
+                    <ul>
+                                                    <li><a href="http://blog.roodo.com/henrynipplecity/archives/16096533.html">【好書，不推嗎？】這不是一部露點電影 之 這不是一部愛情電影</a></li>
+<li><a href="http://blog.roodo.com/henrynipplecity/archives/20946618.html">【檢查】雞排妹-鄭佳甄寫真集</a></li>
+<li><a href="http://blog.roodo.com/henrynipplecity/archives/27720826.html">我是市長，我收集內衣型錄</a></li>
+<li><a href="http://blog.roodo.com/henrynipplecity/archives/16660093.html">過中秋．圈乳頭</a></li>
+<li><a href="http://blog.roodo.com/henrynipplecity/archives/19912240.html">我們的創意不是給你們踩在地上爽的</a></li>
+
+                                            </ul>
+                </div>
+            </div>
+            <div class="left_box float_r">
+            <script> adspac("/w=300/h=250/site=1078/bk=12468"); </script>
+            </div>
+        </div>
+        <div class="light_box_footer">
+            <div class="bottom_box">
+            <script> adspac("/w=728/h=90/site=1078/bk=12467"); </script>
+            </div>
+        </div>
+    </div>
+</div>            
+<div id="footer"></div>
+<DIV style="CLEAR: both">&nbsp;</DIV>
+
+</div> <!-- container -->
+<script type="text/javascript" language="javascript">
+<!--
+if (document.comment_form.author != undefined)
+    document.comment_form.author.value = getCookie("author");
+if (document.comment_form.email != undefined)
+    document.comment_form.email.value = getCookie("email");
+if (document.comment_form.url != undefined)
+    document.comment_form.url.value = getCookie("url");
+if (document.comment_form.myicon != undefined)
+{
+        if (getCookie("myicon") != 'false')
+        document.comment_form.myicon.checked = true;
+}
+if (getCookie("bake") != 'false')
+    document.comment_form.bake.checked = true;      
+//-->
+</script>   
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"yNWUh1aUXR00ys", domain:"roodo.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=yNWUh1aUXR00ys" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "10351851" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=10351851&cv=2.0&cj=1" /></noscript>
+<!-- End comScore Tag --><script type="text/javascript" src="/_img/search/func.js"></script>
+<script src="http://iguang.tw/js/moganshopping.php"></script>
+
+
+
+</body>
+</html>
