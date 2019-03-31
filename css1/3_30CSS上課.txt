@@ -1,0 +1,24 @@
+1.電子相簿2.旅遊網站3.要RWD響應是網站 (4月底前完成)
+2.css color  GOGGLE顏色
+3.h1:hover{}  :(滑鼠游標移到字作變化)
+4.p::first-letter{第一個字變大}
+5.@import "mycss.css";  (直接叫出寫好的CCS套入)		
+6.<link rel="stylesheet" href="mycss.css" type="text/css"(直接叫出寫好的CCS套入)
+7.image css animation 特效 (GOGGLE)
+8.CSS動畫
+9.animate.css
+10. python -m http.server
+==================================
+1.檔案寫好後存下
+2.CMD 輸入: python- m htpp.server開啟後
+3.10.0.101.38:8000/ccc.html   (手機輸入IP:8000/檔案名.html)
+===========================================
+4.bootsrap官網
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+以上式套入CCS放在HEAD理
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+以上是放在body理
+5.就套用了Bootstrap
+6.進入官網後點documantion-->comput-->alert
