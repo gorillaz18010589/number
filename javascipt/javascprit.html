@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="uti-8">
+	<script>
+/*多行註解
+*/
+//單行註解
+
+//輸出
+//alert("hello world"); //跳警告小視窗//
+//console.log("hello world");  //叫出開發人員選項,送到console給工程師看的//
+console.log(5 + 3);
+
+a = 10;
+b = 20;
+console.log(a + b);
+
+x = "7"; //加上雙引號變字串,無法做運算
+y = "9";
+console.log (x + y);
+
+//字串變成數字
+
+/*x = "7"; //加上雙引號變字串,無法做運算
+y = "9";
+console.log (parseInt(x) + pqrseInt(y));*/
+
+x = "7.3";
+y = "2.5";
+console.log	(parseFloat(x) + parseFloat(y));
+
+// 數字轉文字
+console.log(a.toString() +b.toString());
+
+function myclick() {
+	text = document.getElementById("text");
+	console.log(text.value);
+	}
+	</script>
+	</head>
+	<body>
+	<input id="text"><button onclick="myclick()">按我</button>
+		
+	</body>
+</html>

@@ -1,0 +1,15 @@
+<div class="col-sm-7 text-center" style="background:lightyellow">
+1.text-center (靠中)
+2.sm-7 (總共12格占7格))
+3.d-flex justify-content-center align-items-center  (文字置中在中間)
+4.container-fluid (滿板寬度)
+5.table-dark:黑色背景
+6.B一下TABLE就有很多資料
+7.table-striped (偶數列變色)
+<a tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle=>
+*<nav class="navbar
+class="toast
+popover
+modal fade
+carousel
+class="card-header

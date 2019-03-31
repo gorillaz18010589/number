@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="uti-8">
+	<script>
+/*多行註解
+*/
+//單行註解
+
+//輸出
+//alert("hello world"); //跳警告小視窗//
+//console.log("hello world");  //叫出開發人員選項,送到console給工程師看的//
+console.log(5 + 3);
+
+a = 10;
+b = 20;
+console.log(a + b);
+
+x = "7"; //加上雙引號變字串,無法做運算
+y = "9";
+console.log (x + y);
+
+//字串變成數字
+
+/*x = "7"; //加上雙引號變字串,無法做運算
+y = "9";
+console.log (parseInt(x) + pqrseInt(y));*/
+
+x = "7.3";
+y = "2.5";
+console.log	(parseFloat(x) + parseFloat(y));
+
+// 數字轉文字
+console.log(a.toString() +b.toString());
+
+function myclick1(who) {
+	n1 =parseInt (document.getElementById("n1").value);
+	n2 =parseInt (document.getElementById("n2").value);
+	label = document.getElementById("ans");
+	label.innerHTML = n1 - n2;
+	}
+	function myclick2() {
+	n1 =parseInt (document.getElementById("n1").value);
+	n2 =parseInt (document.getElementById("n2").value);
+	label = document.getElementById("ans");
+	label.innerHTML = n1 - n2;
+	}
+	function myclick3() {
+	n1 =parseInt (document.getElementById("n1").value);
+	n2 =parseInt (document.getElementById("n2").value);
+	label = document.getElementById("ans");
+	label.innerHTML = n1 - n2;
+	}
+	function myclick4() {
+	n1 =parseInt (document.getElementById("n1").value);
+	n2 =parseInt (document.getElementById("n2").value);
+	label = document.getElementById("ans");
+	label.innerHTML = n1 - n2;
+	}
+	</script>
+	</head>
+	<body>
+	數字一:<input id="n1"><p>
+	數字二:<input id="n2"><p>
+	<button onclick="myclick1(this)">加</button>
+	<button onclick="myclick1(this)">減</button>
+	<button onclick="myclick1(this)">乘</button>
+	<button onclick="myclick1(this)">除</button>
+		<label="ans"> <label>
+	</body>
+</html>
