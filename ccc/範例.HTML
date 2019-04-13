@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+	<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<meta charset="uti-8">
+	<script>
+	function f1(jsonObj){
+	var tbody =document.getElementById("tbody");
+	jsonObj.forEach(function(p){
+	row=tbody.insertRow(); //製造出一個ROW
+	
+	county=row.insertCell();
+	county.innerHTML=p["County"];
+	
+	siteName=row.insertCell();
+	siteName.innerHTML=p["SiteName"];
+	
+	AQI=row.insertCell();
+	AQI.innerHTML=p["AQI"];
+	
+	
+	});
+	
+	}
+
+		</script>
+	</head>
+	<body>
+	<table  class="table table-borderless table-dark>
+	<thead>
+	<tr>
+		 <th scope="col">County</th>
+		 <th scope="col">SiteName</th>
+		 <th scope="col">AQI</th>
+	</tr>
+	<thead>
+	
+	<table class="table table-borderless table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>

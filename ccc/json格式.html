@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+	<head>
+	
+<script type="text/javascript">
+
+//JSON
+var dict={
+	"uid":"A01",  //"key":"value"  JS理叫object
+	"cname":"王大明",
+	"age":30
+ }
+ dict["age"]=35;   //直接修改值變成35
+ console.log(dict["uid"]);  //讀取KEY JOSN的KEY是字串隨你訂 *正統寫法
+ console.log(dict["cname"]);
+ console.log(dict["age"]);
+ 
+ console.log(dict.cname); //JS可用的寫法
+ 
+ console.log("================================================");
+ 
+ var array=[           //兩筆資料用陣列存取
+ {
+	"uid":"A01",  
+	"cname":"王大明",
+	"age":30
+ },
+ 
+  {
+	"uid":"A02",  
+	"cname":"理大媽",
+	"age":26
+ }
+ 
+ 
+ ]
+ 
+ for (p in array){       //用迴圈讀取兩筆陣列資料
+	console.log(array[p]["uid"]);
+	console.log(array[p]["cname"]);
+	console.log(array[p]["age"]);
+ }
+  console.log("================================================");
+  
+  //JSON解新 (parse)   字串用{}包
+  var  text='{"uid":"A03", "cname":"王小毛", "age":20}';
+  var jsonObj=JSON.parse(text);   //字串轉換
+  console.log(jsonObj["uid"]);
+  console.log(jsonObj["cname"]);
+  console.log(jsonObj["age"]);
+  
+  //JSON Ojbect 轉乘JSO字串
+  s=JSON.stringify(jsonObj);
+  console.log(s);
+  
+  //本地資料儲存 5MB
+  localStorage.setItem("mykey",text);
+ //取資料
+ tmp=localStorage.setItem("mykey",text);
+ console.log(tmp);
+ //刪除 key
+ localStorage.removeIten("mykey");
+ 
+//刪除所有的KEY
+
+ localStorage.clear("mykey");
+</script>
+	</head>
+	<body>
+	
+		
+	</body>
+</html>

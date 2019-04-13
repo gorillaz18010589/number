@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="uti-8">
+	<script>
+	function readDate(){
+			 var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("demo").innerHTML = this.responseText;
+	 console.log("字串長度"+text.lenght); 
+    }
+  };
+  xhttp.open("GET", "bbb.txt", true); //中間改黨名
+  xhttp.send();
+}
+		</script>
+	</head>
+	<body>
+		<button onclick ="readDate()">按我吧</button>
+		<div id="demo"></div>
+		
+	</body>
+</html>
