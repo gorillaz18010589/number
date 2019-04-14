@@ -7,10 +7,10 @@
 7.image css animation 特效 (GOGGLE)
 8.CSS動畫
 9.animate.css
-10. python -m http.server
+10. python -m http.server 10.0.101.38:8000/ccc.html 
 ==================================
 1.檔案寫好後存下
-2.CMD 輸入: python- m htpp.server開啟後
+2.CMD 輸入: python- m htpp.server開啟後python -m http.server
 3.10.0.101.38:8000/ccc.html   (手機輸入IP:8000/檔案名.html)
 ===========================================
 4.bootsrap官網
