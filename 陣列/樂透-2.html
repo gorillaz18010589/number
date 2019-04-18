@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>模擬樂透彩</title>
+<script>
+var arrLotto=new Array(43);
+var arrNum=new Array(7);
+for (i=0;i<7;i++) { //這個for用在產生七個亂數, range在1~42內而且不會重覆
+  isDone=false;
+  while (!isDone) {
+      num=Math.floor(Math.random()*42+1);
+      if (!arrLotto[num]) {
+           arrNum[i]=num;
+           arrLotto[num]=true;
+           isDone=true;
+      } 
+  }
+}
+function show() {//單純的只是把七個號碼呈現出來而已。
+   for (i=0;i<7;i++) {
+      bg= ((i!=6) ? "yball.jpg" : "bball.jpg");
+      document.write("<td width=100 height=100 align=center valign=middle style='background-repeat:no-repeat' background='"+bg+"'>");
+      document.write("<font style='font-size:45px' face='Arial Black'>"+arrNum[i]+"</font>");
+      document.write("</td>");
+   }
+}
+function showByOrder() {//將七號號碼做個排序而已
+   for (i=1;i<=42;i++) {
+      if ((i!=arrNum[6])&& arrLotto[i]) {
+         document.write("<td width=100 height=100 align=center valign=middle style='background-repeat:no-repeat' background=yball.jpg>");
+         document.write("<font style='font-size:45px' face='Arial Black'>"+i+"</font></td>");
+      }
+   }
+   document.write("<td width=100 height=100 align=center valign=middle style='background-repeat:no-repeat' background=bball.jpg>");
+   document.write("<font style='font-size:45px' face='Arial Black'>"+arrNum[6]+"</font></td>");
+}
+</script>
+</head>
+<body bgcolor=white>
+<center>
+<table width=780>
+<caption><font size=+3 color=red>樂透彩中獎號碼</font></caption><tr>
+<script>
+show();
+</script>
+</tr></table>
+<br>
+<br>
+<table width=780>
+<caption><font size=+3 color=red>樂透彩中獎號碼(依號序)</font></caption><tr>
+<script>
+showByOrder();
+</script>
+</tr></table>
+<form><input type="button" style="background-color:tomato;font-family:標楷體;font-size:32px" value="== 重新開獎 =="onClick="location.reload();"></form>
+</body>
+</html>

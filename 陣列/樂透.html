@@ -1,0 +1,81 @@
+<html>
+<head lang="zh-tw">
+<meta charset="UTF-8">
+<title>JavaScript Test</title>
+<style> 
+.type{
+border:1px solid #FFC010;
+border-radius: 15px;
+width: 500px;
+}
+.title{
+width:300px;
+border-bottom:1px solid #000000;
+border:3px;
+padding:right;
+}
+.t {
+width:100px;
+float:left;
+margin: 10px;
+text-align: right;
+vertical-align:center;
+}
+</style>
+<script>
+function check(){
+if(parseInt(reg.balls.value)>=parseInt(reg.token.value)){
+takeBalls(reg.balls.value,reg.token.value);
+}else {
+window.alert("輸入的內容無法進行抽取喔~");
+}      
+return undefined;
+}
+function takeBalls(balls, token){
+var result = new Array(token);
+//document.write("<div style=\"border:2px solid #FFCC00; width:400px;border-radius: 20px;text-align: center; \">")
+document.getElementById("resultset").innerHTML = '<p style="color:#00DDAA">抽取結果如下</p>';
+//document.write("<p style=\"color:#00DDAA\">抽取結果如下</p>");
+for(var i=0;i<token;i++){
+result[i]=parseInt(Math.random()*balls+1);
+for(var j=0;j<i;j++){
+if(result[j]==result[i]){
+i--;
+}
+}
+}
+result.sort(sortNumber);
+for (var i = 0; i < token; i++) {
+var OriginalFont = document.getElementById("resultset").innerHTML;
+document.getElementById("resultset").innerHTML = OriginalFont + '<span style="color:#3377FF ">' + result[i] + '號</sapn>';
+//document.write("<span style=\"color:#3377FF \">"+result[i]+"號</sapn>");
+}
+//document.write("<br><a href=\"js.html\">返回</a></div>");
+return undefined;
+}
+function sortNumber(a,b)
+{
+return a - b;
+}
+</script> 
+</head>
+<body>
+<form action="#" method="post" name="reg">
+<fieldset class="type">
+<legend>樂透抽取程式</legend>
+<div class="title">   
+<label class="t">總共號碼數</label><input type="number" name="balls" min="1" required="required">
+</div>
+<br>
+<div class="title">
+<label class="t">取球數</label><input type="number" name="token" min="1" required="required">
+</div>
+<br>
+<input type="button" value="確認" onclick="check()" >
+<input type="reset" value="清除">  
+<br>
+<center id="resultset"></center>
+</fieldset>
+</form>
+</body>
+</html>

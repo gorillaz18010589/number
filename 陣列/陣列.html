@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+	<head>
+	<script>
+	//陣列 array  zoo房間  獅子一號房
+	var zoo =["獅子","老虎","長頸鹿","海豚"];    //房間0 房間1 房間2 房間3
+	//陣列索引值一率從0
+	console.log(zoo[2]);
+	zoo[0]="石虎";  //把石虎放到0號房取代獅子
+	console.log(zoo);
+	
+	//陣列越界
+	//console.log(zoo[4]);
+	
+	//列出陣列中的每個元素
+	for (i=0; i<zoo.length; i++){   //length是長度
+		console.log("動物園有" +zoo[i]);
+	}
+	
+	for(i in zoo){
+		console.log("動物園有" +zoo[i]);
+	}
+	
+	zoo.forEach(function(p){   //內建函式 zoo.forEach=抓出函式裡面的值 P=函式內所有的直
+	console.log("動物園有" +p);
+	
+	});
+	
+	//zoo.push  =   從尾端增加元素
+	zoo.push("鯊魚","老鷹");
+	console.log(zoo);
+	
+	//zoo.unshift = 從頭增加元素
+	zoo.unshift("眼鏡猴","孔雀");
+	console.log(zoo);
+	
+	//從尾端刪除   本來尾端有老鷹,刪掉
+	zoo.pop();
+	console.log(zoo);
+	
+	//從頭刪除
+	zoo.shift()
+	console.log(zoo);
+	
+	//搜尋陣列 zoo.indexOf()括弧內打你要的 會告訴你在第幾個
+	console.log(zoo.indexOf("老虎"));
+	
+	//順向排序  先幫你把陣列由小到大排序
+	arr = [1,5,2,6,7,8,4];
+	console.log(arr.sort());
+	
+	//陣列反向  再用reverse由大到小排列
+	console.log(arr.reverse());
+	
+	Math.random() 隨機小數
+	
+	
+	</script>
+	</head>
+	<body>
+		
+		
+	</body>
+</html>
+

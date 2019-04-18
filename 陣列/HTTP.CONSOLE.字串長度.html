@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="uti-8">
+	<script>function	readDate(){
+			 var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+	text=this.responseText;
+     document.getElementById("demo").innerHTML = text;
+	 console.log("字串長度"+text.lenght);    //字串長度多少
+	 console.log("搜尋字串"+text.indexOF(CNN));      //找尋CNN在第幾行
+	 console.log("搜尋字串"+text.indexOF(CNN,13));    //在13cnn後開始找
+	 
+	 begin_idx = text.indexOF("to");   //字串中所有 {to}位置
+	 while (begin_idx != -1)  //-1代表找不到
+	 {
+		console.log(begin_idx);
+		begin_idx=text.indexOF("to",begin_idx +1);
+		
+	 
+	 }
+	 //字串取代
+	  console.log("將CNN換成HELLO");
+	  console.log(text.replace("CNN","HELLO"));
+	  //不分大小寫
+	   console.log(text.replace(/CNN/i,"HELLO"));
+	  //全部取代
+	  console.log(text.replace(/CNN/g,"HELLO"));
+	  
+	  //將{to}換成紅色字體
+	  text =text.replace(/to/g,"<span style='color:red'>to</span>")
+	  document.getElementById("demo").innerHTML =text;
+	  
+	  //大寫
+	   document.getElementById("demo").innerHTML =text.toUpperCase();
+	    //小寫
+	   document.getElementById("demo").innerHTML =text.toLowerCase();
+	   
+	   console.log("=================");
+	   
+	   //子字串 -substring(begin,[end])
+	   text="hello world";    //抓到l.o 空格
+	   console.log(text.substring(3,6));  //3,6之間
+	   console.log(text.substring(3));
+	   
+	   //子字串 -substr(beg,length)
+	   console.log(text.substr(3,1)) //從第三個字開始抓一個字
+	   
+	   //頭尾去空白  讓使用者不管加了什麼抓取我們要的 trim 進去根拿出來都要trim過
+	   text ="\n\n    abcd@gamail.com   \n";
+	   console.log(text);	  
+		console.log(text.trim());	   //密碼不trim,帳號要trim	 
+
+		//字串分割
+		text ="ab,cd,ef";
+		a = text.split(",");    //讀execl有逗點得檔案用這個,分割字串
+		console.log(a);
+		
+		//起始字串
+		text="hello world";
+		console.log(text.startsWith("he"));  //HE開頭傳回true
+		
+		//結束字串
+		console.log(text.endswith("d"));    //結尾是d傳回true
+	  
+    }
+  };
+  xhttp.open("GET", "news.txt", true); //中間改黨名
+  xhttp.send();
+}
+		</script>
+	</head>
+	<body>
+		<button onclick ="readDate()">按我吧</button>
+		<div id="demo"></div>
+		
+	</body>
+</html>
