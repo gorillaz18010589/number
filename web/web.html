@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta charset="utf-8">
+<script>
+// cookie
+function setCookie() {
+    var d = new Date();
+    d.setTime(d.getTime() + 5 * 60 * 60 * 1000);
+    document.cookie = "username=王大明; expires=" + d.toGMTString();
+    
+    var d = new Date();
+    d.setTime(d.getTime() + 2 * 24 * 60 * 60 * 1000);
+    document.cookie = "pwd=1234; expires=" + d.toGMTString();
+}
+function getCookie() {
+    var cookie = document.cookie;
+    console.log(cookie);
+    
+    var arr = cookie.split(";");
+    for (i in arr) {
+        var item = arr[i].split("=");
+        if (item[0].trim() == "username") {
+            document.getElementById("username").innerHTML = item[1].trim();
+        }
+        
+        else if (item[0].trim() == "pwd") {
+            document.getElementById("pwd").innerHTML = item[1].trim();
+        }
+    }
+}
+function clearCookie() {
+    var d = new Date();
+    d.setTime(d.getTime() - 1);
+    document.cookie = "pwd=; expires=" + d.toGMTString();
+}
+</script>
+<body>
+<div>姓名：<input id="username"></div>
+<div>密碼：<input id="pwd"></div>
+<button onclick="setCookie()">儲存</button>
+<button onclick="getCookie()">讀取</button>
+<button onclick="clearCookie()">清除</button>
+
+</body>
+</html>

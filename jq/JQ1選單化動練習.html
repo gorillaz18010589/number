@@ -1,0 +1,89 @@
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+#menu {
+    position: absolute;
+    display: inline-block;
+    left: -200px;
+    top: 0px;
+    width: 200px;
+    height: 100%;
+    background: DarkOliveGreen;
+}
+#handle {
+    position: absolute;
+    display: inline-block;
+    left: 0px;
+    top: 50%;
+    cursor: context-menu;
+}
+#menu img {
+    display: block;
+    border-radius: 10px;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 25px;
+}
+#pt1 {
+		
+
+}
+</style>
+<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script>
+var $handle;
+var $menu;
+$(function() {
+    $handle = $("#handle");
+    $menu = $("#menu");
+	$pt1 = $("#pt1")
+    
+    $handle.mousedown(function() {
+        $(document).on("mousemove", myMouseMove);
+    });
+    
+    $(document).on("mouseup", myMouseUp);
+});
+function myMouseMove(event) {
+    console.log(event);
+    if (event.pageX > 200) {
+        return; 
+    }
+    $handle.css("left", event.pageX);  //手把拉到跟座標一樣寬
+    $menu.css("left", -200 + event.pageX); //圖案從-200位置拉到跟座標一樣寬
+}
+function myMouseUp(event) {
+        $(this).off("mousemove");
+        var menu_width = $menu.width();
+        
+        if ($handle.position().left >= 100) { //如果把手拉到大於左邊100座標時
+            $handle.animate({          //做出特效
+                left: menu_width			
+            });
+            $menu.animate({
+                left: 0
+            });
+        } else {
+            $handle.animate({
+                left: 0
+            });
+            $menu.animate({
+                left: -menu_width
+            });
+        }
+}
+
+	
+</script>
+<body>
+<div id="handle">🌸</div>
+<div id="menu">
+    <img src="images.jpg" width="150" id="pt1">
+    <img src="images.jpg" width="150" id="pt2">
+    <img src="images.jpg" width="150" id="pt3">
+</div>
+</body>
+</html>
