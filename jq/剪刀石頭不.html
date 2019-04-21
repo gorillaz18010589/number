@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+ 
+
+
+<script>
+ 
+ //alert(Math.floor(Math.random() * 3));
+var ssp = {"0":"剪刀","1":"石頭","2":"布"};
+var rules = {"2":"1","1":"0","0":"2"};
+
+var Record = function(nth, status){
+    this.nth = nth;
+    this.status = status;
+};
+
+function viewModel() {
+    var self = this;
+    self.rounds = ko.observable(0);
+    self.pcThrow = ko.observable('快出拳');
+    self.youThrow = ko.observable();
+    self.result = ko.observable('欲知結果請出拳');
+    self.myThrow = function() {
+        var pc = Math.floor(Math.random() * 3);
+        self.pcThrow(ssp[pc]);
+        self.youThrow(ssp[self.myChoice()])
+        self.rounds(self.rounds()+1);
+        if (self.myChoice() == pc) {
+            self.result('平手，別學我出拳！');
+            self.records.push(new Record(self.rounds(),'平手'));
+        } else if (rules[self.myChoice()] == pc) {
+            self.result('恭禧你贏了！擱來呀！');
+            self.records.push(new Record(self.rounds(),'你勝'));
+            self.youwin(self.youwin()+1);
+        } else {
+            self.result('你失手了，再來吧！');
+            self.records.push(new Record(self.rounds(),'你負'));
+            self.youloose(self.youloose()+1);
+        };
+    };
+    self.records = ko.observableArray();
+    self.myChoice = ko.observable();
+    self.youwin = ko.observable(0);
+    self.youloose = ko.observable(0);
+    self.clear = function() {
+        self.rounds(0);
+        self.youwin(0);
+        self.youloose(0);
+        self.records.removeAll();
+    };
+ }
+ ko.applyBindings(new viewModel());  
+    </script>
+
+<body>
+		<h1>勝負歷史版：剪刀、石頭、布</h1>
+第<span data-bind="text:rounds"></span>次<br />
+JS出拳：<span data-bind="text:pcThrow"></span><br />
+你出拳：<span data-bind="text:youThrow"></span><br />
+結果：<span data-bind="text:result"></span><br />
+<hr />
+<input type="radio" value="0" data-bind="checked: myChoice" />剪刀
+<input type="radio" value="1" data-bind="checked: myChoice" />石頭
+<input type="radio" value="2" data-bind="checked: myChoice" />布
+<button data-bind="click:myThrow,visible:myChoice">出拳</button>
+<br />你的戰積：<span data-bind="text:youwin"></span>勝 <span data-bind="text:youloose"></span>負 <button data-bind="click:clear,visible:records().length">清除記錄</button
+</body>
+</html>

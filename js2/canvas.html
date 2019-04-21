@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="ut1-8">	
+
+		<script>
+		var canvas;
+		var ctx;
+		window.onload =function() {  //後面接你要的ctx指令就會直接跑完標籤
+			canvas = document.getElementById("canvas");
+			ctx  =canvas.getContext("2d");
+			}
+		
+		//function loadDoc(){
+		//var canvas = document.getElementById("canvas");
+		//var ctx  =canvas.getContext("2d");
+		function drawCircle(){
+		ctx.strokeStyle="red";
+		ctx.fillStyle="blue";
+		ctx.beginPath();
+		ctx.arc(100,75,50,0,2 * Math.PI);
+		ctx.fill();
+		ctx.stroke;
+		}
+		function drawimage(){
+			var image = new Image();
+			image.src = "aaa.jpg";
+			image,onload =function(){
+			ctx.drawImage(image,0,0);
+		};
+		
+	
+		
+		}
+		
+		function drawRect(){
+		ctx.strokeStyle="green";
+		ctx.linewidth = 3;
+		ctx.beginPath();
+		ctx.rect(100,25,100,100);
+		ctx.stroke();
+		
+		}
+		function rotate(){
+		ctx.translate(canvas.width / 2, canvas.height/2);
+		ctx.rotate(2 * Math.PI / 100);
+		ctx.translate(canvas.width / 2, -1 * canvas.height/2);
+		
+		}
+		
+		function drawLine(){
+		ctx.strokeStyle ="red";  //筆的顏色
+		ctx.beginPath();     //開始
+		ctx.moveTo(0, 0);    //起始位置
+		ctx.lineTo(300 , 150); //結束位置
+		ctx.stroke();   //全部開始跑電腦會先畫好直接出現
+		}
+		
+		function clearCanvas(){
+		ctx.setTransform(1,0,0,1,0,0);
+		ctx.clearRect(0,0, canvas.width,canvas.height);
+		
+		
+		}
+		
+		function animateRotate() {
+		setTimeout("drawRect(); rotate(); animateRotate()",200);
+		
+		}
+		
+		</script>
+	
+	</head>
+	<body> <!--onload="onload()"> --> <!--onload整個瀏覽器觸發-->
+	<button onclick=" animateRotate();">自動選轉</button>
+		<button onclick="rotate();">選轉矩形</button>
+			<button onclick="drawRect();">畫矩形按鈕</button>
+		<button onclick="drawCircle();">畫圓按鈕</button>
+		<button onclick="drawLine();">畫線按鈕</button>
+		<button onclick="clearCanvas">清除畫布</button>
+       <button onclick="drawimage">顯示圖片</button>
+		<p>
+		<canvas id="canvas" style="background-color:LightCyan "></canvas> <!--他有預設值大小-->
+		
+	
+		
+	</body>
+</html>

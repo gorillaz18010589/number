@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+<style>
+#box1 {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+#put_it_here {
+    width: 100px;
+    height: 100px;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+</style>
+
+<script>
+$(function() {
+    $("#box1").draggable();
+    $("#put_it_here").droppable({
+        drop: function(event, ui) {
+            ui.draggable.css("background-color", "red");
+            $(this).text(ui.draggable.attr("id"));
+        },
+        over: function(event, ui) {  //over移入時
+            $(this)
+                .css("border-color", "red")
+                .css("border-width", "2px");
+        },  
+        out: function(event, ui) {  //out移出時
+            $(this)
+                .css("border-color", "black")
+                .css("border-width", "1px");
+            ui.draggable.css("background-color", "green");
+            $(this).text("");
+        }
+    });
+});
+</script>
+
+<body>
+<div id="box1"></div>
+<p/>
+<div id="put_it_here"></div>
+</body>
+</html>

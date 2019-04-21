@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+	<script>
+	var canvas;
+	var ctx;
+	
+	window.onload = function(){
+	canvas = document.getElementById("canvas");
+	ctx = canvas.getContext("2d");
+	
+	
+	
+	
+	canvas.onmousemove = function(event){
+		console.log(event);
+		var x = event.offsetX;
+		var y = event.offsetY;
+		
+		
+		pan(x,y,"green");
+	
+	
+	};
+	}
+		
+	function pan(x,y,color){
+	
+	ctx.strokeStyle = color;
+	ctx.fillStyle =color;
+	ctx.beginPath();
+	ctx.arc(x ,y,2, 0, 2 * Math.PI);
+	ctx.fill();
+	ctx.stroke();
+	
+	}
+		
+		
+		</script>
+	</head>
+	<body>
+		<canvas id="canvas" style="background-color: LightCyan"><canvas>
+
+	</body>
+</html>
+

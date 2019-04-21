@@ -1,0 +1,56 @@
+1.先到cloudmqtt用github登入
+2.創建一個新的倉庫
+3.到下面menu的Documentation
+4.websocket下載程式碼貼上
+5.client = new Paho.MQTT.Client("host", port,"client_id");註解調
+6. //Example client = new Paho.MQTT.Client("m11.cloudmqtt.com", 32903, "web_" + parseInt(Math.random() * 100, 10)); ,前面//舉理刪掉
+7.回到倉庫修改帳號,密碼,使用者    m11.cloudmqtt.com=服務器名稱    32903:Websockets端口（僅限TLS)30935
+8.  var options = {
+    useSSL: true,
+    userName: "vomxhlmt", 帳號修改vomxhlmt
+    password: "CnrJE7jiRM2C", 密碼修改CnrJE7jiRM2C
+    onSuccess:onConnect,
+    onFailure:doFail
+  }
+9.<div id="label"></div>  設定一個label在body理
+10.console.log("onMessageArrived:"+message.payloadString);   //設label參數把資料回傳到此
+11.下載mosquitto  
+12.打開CMD到目錄輸入
+13.mosquitto_pub =(使用這發送端)   -h =(使用者伺服器名稱m16.cloudmqtt.com ) -t =(/cloudmqtt訂閱者主題)  -u=(使用者帳號vomxhlmt) -P=密碼 CnrJE7jiRM2C)
+-p =(Port網站設定port 10935) [-m= "(哈摟)"] = (輸入要打內容到網網路上)_
+===========================================================
+連接兩個裝置以上傳訊息
+1.<input id="message"><button onclick="send()">send</button> 設定一個輸入框點擊食用函式send() 做一個按鈕叫send
+2.  function send(){
+  var msg =document.getElementById("message").value;
+   message = new Paho.MQTT.Message(msg);
+    message.destinationName = "/cloudmqtt";
+    client.send(message);
+修改參數創造Function
+3.CMD 也來 mosquitto_sub -h m16.cloudmqtt.com -t /cloudmqtt -u vomxhlmt -P CnrJE7jiRM2C -p 10395   改成mosquitto_sub(接收端)
+4.開啟兩不同留覽器傳訊息
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===============================================================================
+mosquitto_pub -h m16.cloudmqtt.com -t /cloudmqtt -u vomxhlmt -P CnrJE7jiRM2C -p 10395 -m "hello world"
+mosuitto_pub
+mosquitto_sub -h m16.cloudmqtt.com -t /cloudmqtt -u vomxhlmt -P CnrJE7jiRM2C -p 10395 
+
+pub是發送者 
+sub訂閱者

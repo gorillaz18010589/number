@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+
+<style>
+
+
+
+#box1 {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+#put_it_here {
+    width: 100px;
+    height: 100px;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+</style>
+<script>
+				
+				$(function() {
+					$("#box1").draggable();
+				$("#put_it_here").droppable({ 	//得到box1的屬性,並且droppable(); 拖動他 //put_it_here是drop被移入時的函示  ui是把box1拖進去觸發的標籤
+					drop: function(event, ui) {  //drop:放進去   event表示事件對象, ui=box1 觸發此事件的標籤
+						ui.draggable.css("background-color", "red"); //box1 = ui  ui.
+						$(this).text(ui.draggable.attr("id")); //this=ui=box1 被移入進去時產生一個box1字
+					},
+					 over: function(event, ui) {  //over移入時
+						$(this)
+						.css("border-color", "orange")
+						.css("border-width", "2px");
+					},  
+					out:function(event,ui){
+						$(this)  //這個指的是put_it_here
+						.css("border-color", "red")
+						.css("border-color", "4px;")
+						.css("backgroun-color", "bluer")
+					}
+	});
+	})
+	
+</script>
+
+<body>
+
+
+<div id="box1"></div>
+<p/>
+<div id="put_it_here"></div
+</body>
+</html>

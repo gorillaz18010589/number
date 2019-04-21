@@ -49,11 +49,16 @@ function drawCircle() {
             <th scope="col">SiteName</th>
             <!--<th scope="col">PublishTime</th>-->
 			<th scope="col">uvi</th>
-			<th scope="co1">Graph</th>
+			<th id="cir "scope="co1">Graph</th>
         </tr>
     </thead>
     <tbody id="tbody"></tbody>
 </table>
+
+<div style="width:50px; height: 50px;"> 
+	<canvas id="drawCircle" width="100%" height="100%" style="background:yellow ; width:30;"  <!-- style控制圖的大小-->
+    
+</div>
 <script src="https://opendata.epa.gov.tw/ws/Data/UV/?$format=json&callback=f1"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
