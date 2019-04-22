@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>作業1 - 剪刀石頭布</title>
+	<script>
+	var startBtn = document.querySelector('#start-btn');
+                          
+startBtn.addEventListener('click', function() {
+var coChoice = Math.floor(Math.random() * 3);
+var choice = parseInt(prompt('請輸入數值？ 0. 剪刀 1. 石頭 2. 布', 0));
+  console.log(typeof(choice));
+  if(choice === 0) {
+    alert('你出了“剪刀”'); //ok
+     if(coChoice === 0) {
+       alert('厲害，居然跟我一樣');
+    } else if (coChoice === 1) {
+       alert('嘿嘿~就憑你這點本事想赢我？？');
+    } else if (coChoice === 2) {   
+       alert('假的吧~居然能贏我！');
+      }   
+    } else if(choice === 1) {
+      alert('你出了“石頭”!'); 
+     if(coChoice === 0) {
+       alert('假的吧~居然能贏我！');
+    } else if (coChoice === 1) {
+       alert('厲害，居然跟我一樣！');
+    } else if (coChoice === 2) {   
+       alert('嘿嘿~就憑你這點本事想赢我？？');
+      }   
+    } else if(choice === 2) {
+      alert('你出了“布”!'); 
+      if(coChoice === 0) {
+         alert('嘿嘿~就憑你這點本事想赢我？？');
+    } else if (coChoice === 1) {
+         alert('假的吧~居然能贏我！');
+    } else if (coChoice === 2) {   
+         alert('厲害，居然跟我一樣！');
+    }  
+    } 
+
+});
+	</script>
+	<style>
+	body {
+  text-align: center;
+}
+h1 {
+  font-family: Helvetico;
+}
+button {
+  width: 180px;
+  height: 60px;
+  font-size: 20px;
+  font-family: Helvetico;
+  background: #5599ff;
+  border-radius: 10px;
+  color:white
+}
+	</style>
+  </head>
+  <body>
+    <h1>作業1 - 剪刀石頭布</h1>
+    <button id="start-btn">點擊開戰</button>
+  </body>
+</html>

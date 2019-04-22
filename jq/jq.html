@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta charset="utf-8">
+
+<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+
+<script>
+// javascript
+/*
+window.onload = function() {
+};
+*/
+// jquery
+// 第三種寫法的簡略版
+$(function() {
+    $("#bn1").click(function() {
+        $("#label").text("hello world");
+    });
+	
+	    $("#bn2").click(function() {
+        $("#label")
+            .html("<h1>hello world</h1>")
+            .css("color", "red")
+            .css("font-style", "italic");
+    });
+    $("#bn3").click(function() {
+        $("#label")
+            .html("<h1>hello world</h1>")
+            .css({
+                "color": "green",
+                "font-style": "italic"
+            });
+    });
+});
+/*
+$(window).load(function() {
+});
+$(document).ready(function() {
+});
+*/
+</script>
+<body>
+<button id="bn1">按我吧(text)</button>
+<button id="bn2">按我吧(html)</button>
+<button id="bn3">按我吧(muti-css)</button>
+<div id="label"></div>
+</body>
+</html>

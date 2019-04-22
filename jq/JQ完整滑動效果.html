@@ -1,0 +1,96 @@
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+#menu {
+    position: absolute;
+    display: inline-block;
+    left: -200px;
+    top: 0px;
+    width: 200px;
+    height: 100%;
+    background: DarkOliveGreen;
+}
+#handle {
+    position: absolute;
+    display: inline-block;
+    left: 0px;
+    top: 50%;
+    cursor: context-menu;
+}
+#menu img {
+    display: block;
+    border-radius: 10px;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+</style>
+<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script>
+var $handle;
+var $menu;
+$(function() {
+    $handle = $("#handle");
+    $menu = $("#menu");
+    
+    $handle.mousedown(function() {
+        $(document).on("mousemove", myMouseMove);
+    });
+    
+    $(document).on("mouseup", myMouseUp);
+    
+    $("#menu img").click(function() {
+        $("#image").attr("src", $(this).attr("src")); //attr =抓屬性
+        menu_is_open(false);
+    });
+});
+function myMouseMove(event) {
+    console.log(event);
+    if (event.pageX > 200) {
+        return;
+    }
+    $handle.css("left", event.pageX);
+    $menu.css("left", -200 + event.pageX);
+}
+function myMouseUp(event) {
+        $(this).off("mousemove");
+        
+        if ($handle.position().left >= 100) {
+            menu_is_open(true);
+        } else {
+            menu_is_open(false);
+        }
+}
+function menu_is_open(open){
+    var menu_width = $menu.width();
+    if (open) {        
+        $handle.animate({
+            left: menu_width
+        });
+        $menu.animate({
+            left: 0
+        });
+    } else {
+        $handle.animate({
+            left: 0
+        });
+        $menu.animate({
+            left: -menu_width
+        });
+    }    
+}
+</script>
+<body>
+<div id="handle">🌸</div>
+<div id="menu">
+    <img src="images.jpg" width="150">
+    <img src="images.jpg" width="150">
+    <img src="images.jpg" width="150">
+</div>
+<img id="image" style="margin-left: 50px">
+</body>
+</html>'

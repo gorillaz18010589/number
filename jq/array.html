@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script>
+// 陣列 array
+var zoo = ["獅子", "老虎", "長頸鹿", "海豚"];
+// 陣列索引值一律從 0 開始
+console.log(zoo[2]);
+zoo[0] = "石虎";
+console.log(zoo);
+
+// 陣列越界
+// console.log(zoo[4]);
+
+// 列出陣列中的每個元素
+for (i = 0; i < zoo.length; i++) {
+    console.log("動物園有" + zoo[i]);
+}
+
+for (i in zoo) {
+    console.log("動物園有" + zoo[i]);
+}
+
+zoo.forEach(function(p) {
+    console.log("動物園有" + p);
+});
+
+// 從尾端增加元素
+zoo.push("鯊魚", "老鷹");
+console.log(zoo);
+// 從頭增加元素
+zoo.unshift("眼鏡猴", "孔雀");
+console.log(zoo);
+
+// 從尾端刪除元素
+zoo.pop()
+console.log(zoo);
+// 從頭刪除元素
+zoo.shift()
+console.log(zoo);
+
+// 搜尋陣列
+console.log(zoo.indexOf("老虎"));
+
+// 順向排序
+arr = [1, 5, 2, 6, 7, 9, 4];
+console.log(arr.sort());
+// 陣列反向
+console.log(arr.reverse());
+
+
+</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+	<script>
+	function mysubmit(){
+		console.log("hello");
+		var x =document.getElementById("x").value;
+		var x =document.getElementById("x").value;
+		
+		if((x =="")|| (y="")){   //如果帳號X =空白 或者Y=空白 return false =等於不回傳這值到後段
+			alert("請輸入正確的數字");   //並且印出警告視窗
+			return false;
+			}
+			else{
+				return true;     //如果正確走true傳回後端
+			}
+		
+	}
+
+
+
+	</script>
+	</head>
+	<body>
+															<!--onsubmit="return mysubmit()先把格式不對得在前端檔調 return mysubmit()否定回傳 -->
+	<form action="http://10.0.101.173/add.php" method="post" onsubmit="return mysubmit()">  <!--method用get抓-- 用老師的PHP所以網址照老師的 GET會把帳密打在網路上不能用get傳 GOGGLE搜尋就是get-->
+	第一個值:<input id="x" name="x"><p>								<!--method機密資料用POST走加密-->
+	第二個值:<input id="y" name="y"><p>
+	<input type="submit" value="送出">
+	<input type="rest"  value="清除">
+
+	</form>
+		
+	</body>
+</html>

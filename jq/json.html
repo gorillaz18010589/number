@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script>
+// JSON
+var dict = {
+    "uid": "A01",
+    "cname": "王大明",
+    "age": 30
+}
+
+dict["age"] = 35;
+console.log(dict["uid"]);
+console.log(dict["cname"]);
+console.log(dict["age"]);
+
+console.log(dict.cname);
+
+console.log("====================");
+var array = [
+    {
+        "uid": "A01",
+        "cname": "王大明",
+        "age": 30
+    },
+    {
+        "uid": "A02",
+        "cname": "李大媽",
+        "age": 26
+    }    
+]
+
+for (p in array) {
+    console.log(array[p]["uid"]);
+    console.log(array[p]["cname"]);
+    console.log(array[p]["age"]);
+}
+
+// JSON 解析 (parser)
+console.log("========== json parser");
+var text = '{"uid": "A03", "cname": "王小毛", "age": 20}';
+var jsonObj = JSON.parse(text);
+console.log(jsonObj["uid"]);
+console.log(jsonObj["cname"]);
+console.log(jsonObj["age"]);
+
+// JSON Ojbect 轉成 JSON 字串
+s = JSON.stringify(jsonObj);
+console.log(s);
+
+// 本地資料儲存 5MB
+localStorage.setItem("mykey", text);
+// 取資料
+tmp = localStorage.getItem("mykey");
+console.log(tmp);
+// 刪除 key
+localStorage.removeItem("mykey");
+// 刪除所有的 key
+localStorage.clear();
+
+
+</script>
+<body>
+</body>
+</html>

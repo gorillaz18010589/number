@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+
+
+<script>
+		//xxs攻擊 
+		//說明:再輸入格子中輸入JS程式取得不該取得資料
+	//解決方式:攔截特定字元
+	function xss(){
+		document.cookie="username=abcd";
+		var text = document.getElementById("text").value;
+		document.getElementById("label").innerHTML =text;
+		}
+		
+	// SQL Injection 攻擊
+	//說明:在輸入格子中輸入特定SQL 指令工集資料庫
+	//解決方式:攔截特定字元
+	//攔截,這個就可
+	
+	//CSRF 攻擊 -Cross Site Request Forgery 類似GOGGLE後面打搜尋字 用一百萬種來攻擊
+	//用驗證碼檔調
+	//re captch    做一個我不是機器人的圖案 檔調HTTP request
+	//captch  ABCD變形人會輸入 電腦不會
+	
+	//ClickLacking 用iframe 把掏保套上去 再用DIV做一個信用卡結帳
+	//解決方法 -不允許網頁被放在 iframe裡面
+	//1.加上表投 Header alaways append [X-fram]e-Qprtions SAmecroisd]
+	
+	
+	//check sum 可還原
+	
+	//md5 雜湊無解
+	window.onload = function(){
+		if(self != top){
+		alert("禁止動作");
+		top.location = self.location;
+		
+		}
+	};
+	
+	function mymd5(){
+		var text =document.getElementById
+		text =md5(text);
+		document.getElementById("label").innerHTML
+	}
+</script>
+
+<body>
+		<input id="text"  style="width:200px">
+		<p>
+		<button onclick="xss()">XSS</button>
+		<p>
+		<div id="label"> </div>
+</body>
+</html>

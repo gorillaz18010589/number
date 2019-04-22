@@ -1,0 +1,12 @@
+<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+https://github.com/blueimp/JavaScript-MD5/tree/master/js
+MD5保護帳密
+1.jq core
+
+2.jQuery UI  特效
+
+3.jQuery Mobile 跟手勢有關的
+
+4.cordova  專門針對APP跨平台 可以抓到一些手機上的設定 響應是網頁APP 寫一套可以跑比較多套

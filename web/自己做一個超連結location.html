@@ -1,0 +1,61 @@
+<html>
+<head>
+<meta charset="utf-8">
+<script>
+function href() {
+//    location.href = "https://www.google.com.tw";
+    console.log("href: " + location.href);
+    console.log("hostname: " + location.hostname);
+    console.log("pathname: " + location.pathname);
+    console.log("port: " + location.port);
+    console.log("protocol: " + location.protocol);
+    console.log("search: " + location.search);
+}
+function scn() {
+    console.log(screen.width);  //螢幕寬度
+    console.log(screen.height);  //螢幕高度
+    console.log(screen.availWidth);  //真正你能使用的寬度
+    console.log(screen.availHeight); //真正你能使用的高度
+}
+function wnd() {
+    console.log(window.innerWidth);   //瀏覽器寬度隨你大小調整
+    console.log(window.innerHeight);
+}
+function fullscreen() {   //便全黑大螢幕 看影片用
+  var elem = document.getElementById("myiframe");
+    
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.mozRequestFullScreen) { /* Firefox */
+    elem.mozRequestFullScreen();
+  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+    elem.msRequestFullscreen();
+  }
+}
+var w;
+function window_open() {
+    // _self: 自己
+    // _black: 開新頁簽
+    // _top / _parent: 不常用
+    var ww = screen.availWidth;
+    var hh = screen.availHeight;
+    
+    w = window.open("https://www.google.com.tw", "_blank", "width=" + ww + ",height=" + hh + "");
+}
+function window_close() {
+    w.close();
+}
+</script>
+<body>
+<button onclick="href()">Location</button>
+<button onclick="scn()">Screen</button>
+<button onclick="wnd()">Window</button>
+<button onclick="fullscreen()">fullscreen</button>
+<button onclick="window_open()">Open Window</button>
+<button onclick="window_close()">Close Window</button>
+
+<iframe id="myiframe" src="iframe.html" width="0" height="0" frameborder="0"></iframe>
+</body>
+</html>

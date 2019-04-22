@@ -1,0 +1,44 @@
+<script>
+
+function random(min,max)
+{
+var random=Math.random()*(max-min+1)+min;
+random=Math.floor(random);
+return random;
+}
+var a=random(0,2);//随机生成0到2
+var b=random(0,2);
+var c=['石头','剪刀','布'];
+
+console.log('您出'+c[a]);
+console.log('电脑出'+c[b]);
+if(c[a]=='石头'&&c[b]=='布'){
+ alert('电脑胜利！')
+}
+else if(c[a]=='石头'&&c[b]=='剪刀')
+{
+ alert('您胜利啦！');
+}
+else if(c[a]=='石头'&&c[b]=='石头'){
+ alert('战平！');
+}
+else if(c[a]=='剪刀'&&c[b]=='布'){
+ alert('您胜利啦！');
+}
+else if(c[a]=='剪刀'&&c[b]=='剪刀'){
+alert('战平！');
+}
+else if(c[a]=='剪刀'&&c[b]=='石头'){
+ alert('电脑胜利！');
+}
+else if(c[a]=='布'&&c[b]=='剪刀'){
+ alert('电脑胜利！');
+}
+else if(c[a]=='布'&&c[b]=='石头'){
+ alert('您胜利啦！');
+}
+else if(c[a]=='布'&&c[b]=='布'){
+ alert('战平！');
+}
+</script>
+--------------------- 

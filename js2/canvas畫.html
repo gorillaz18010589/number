@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<script>
+var canvas; //設定全域變數
+var ctx;
+window.onload = function() {  //直接載入開啟這兩個動作
+    canvas = document.getElementById("canvas");
+    ctx = canvas.getContext("2d");
+};
+function drawLine() {
+    ctx.strokeStyle = "red";
+    ctx.beginPath();
+    ctx.moveTo(0, 0);
+    ctx.lineTo(300, 150);
+    ctx.lineTo(100, 100);
+    ctx.stroke();
+}
+function drawCircle() {
+    ctx.strokeStyle = "burlywood";
+    ctx.fillStyle = "antiquewhite";
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+    ctx.arc(100, 75, 50, 0, 2 * Math.PI);
+    ctx.fill();
+    ctx.stroke();
+}
+function drawRect() {
+    ctx.strokeStyle = "DarkGreen";
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+    ctx.rect(100, 25, 100, 100);
+    ctx.stroke();
+}
+function drawImage() {
+    var image = new Image();
+    image.src = "images.jpeg";
+    image.onload = function() {
+        ctx.drawImage(image, 0, 0);
+    };
+}
+function rotate() {
+    ctx.translate(canvas.width / 2, canvas.height / 2);
+    ctx.rotate(2 * Math.PI / 180);
+    ctx.translate(-1 * canvas.width / 2, -1 * canvas.height / 2);    
+}
+function animateRotate(n) {
+    if (n > 0) {
+        setTimeout("drawRect(); rotate(); animateRotate(" + (n - 1) + ")", 200);
+    }
+}
+function clearCanvas() {
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
+</script>
+
+<body>
+<button onclick="drawLine()">線</button>
+<button onclick="drawCircle()">圓</button>
+<button onclick="drawRect()">矩形</button>
+<button onclick="drawImage()">圖片</button>
+<button onclick="rotate()">旋轉</button>
+<button onclick="animateRotate(30)">自動旋轉</button>
+<button onclick="clearCanvas()">清除畫布</button>
+<p>
+<canvas id="canvas" style="background-color: LightCyan"><canvas>
+</body>
+</html>

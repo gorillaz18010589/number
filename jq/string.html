@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script>
+// AJAX - Asynchronous JavaScript and XML
+function readData() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     text = this.responseText;
+     document.getElementById("demo").innerHTML = text;
+     
+     console.log("字串長度: " + text.length);
+     console.log("搜尋字串: " + text.indexOf("CNN")); 
+     console.log("搜尋字串: " + text.indexOf("CNNN")); 
+     console.log("搜尋字串: " + text.indexOf("CNN", 13)); 
+     
+     // 字串中所有 「to」 的位置
+     begin_idx = text.indexOf("to");
+     while (begin_idx != -1) {
+        console.log(begin_idx);
+        begin_idx = text.indexOf("to", begin_idx + 1);
+    }
+    
+    // 字串取代
+    console.log("將CNN換成HELLO");
+    console.log(text.replace("CNN", "HELLO"));
+    // 不分大小寫
+    console.log(text.replace(/CNN/i, "HELLO"));    
+    // 全部取代
+    console.log(text.replace(/CNN/g, "HELLO"));
+    
+    // 將「to」換成紅色字體
+    text = text.replace(/to/g, "<span style='color: red'>to</span>");
+    document.getElementById("demo").innerHTML = text;
+    
+    // 大寫
+    document.getElementById("demo").innerHTML = text.toUpperCase();
+    // 小寫
+    document.getElementById("demo").innerHTML = text.toLowerCase();
+    
+    console.log("=====================");
+    // 子字串 - substring(begin, [end])
+    text = "hello world";
+    console.log(text.substring(3, 6));
+    console.log(text.substring(3));
+    
+    // 子字串 - substr(beg, length)
+    console.log(text.substr(3, 1))
+    
+    // 頭尾去空白 trim
+    text = "\n\n    abcd@gmail.com    \n";
+    console.log(text);
+    console.log(text.trim());
+    
+    // 字串分割
+    text = "ab,cd,ef";
+    a = text.split(",");
+    console.log(a);
+    
+    // 起始字串
+    text = "hello world";
+    console.log(text.startsWith("he"));
+    console.log(text.startsWith("abc"));
+    
+    // 結束字串
+    console.log(text.endsWith("d"));
+   }
+  };
+  xhttp.open("GET", "uv.json", true);
+  xhttp.send();
+}
+</script>
+</head>
+<body>
+<button onclick="readData()">按我吧</button>
+<div id="demo"></div>
+</body>
+</html>

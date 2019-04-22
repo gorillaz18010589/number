@@ -1,0 +1,9 @@
+1.Geolocation可抓GPS抓經緯度目標 getCurrentPosition()	Returns the current position of the device函式可抓一天
+2.W3shcool 到JS 最下面JSdom
+3.History  (使用者紀錄)
+4.Location (自己做連接)
+5.Screen  (RWD抓長寬)
+6.window.localStorage
+7.open()
+8.jQuery CDN >, minified複製語法貼上
+9.動畫要載入JQ UI
