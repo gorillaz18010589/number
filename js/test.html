@@ -33,25 +33,25 @@ console.log	(parseFloat(x) + parseFloat(y));
 // 數字轉文字
 console.log(a.toString() +b.toString());
 
-function myclick1(who) {
+function myclick1(this) {
 	n1 =parseInt (document.getElementById("n1").value);
 	n2 =parseInt (document.getElementById("n2").value);
 	label = document.getElementById("ans");
 	label.innerHTML = n1 - n2;
 	}
-	function myclick2() {
+	function myclick2(this) {
 	n1 =parseInt (document.getElementById("n1").value);
 	n2 =parseInt (document.getElementById("n2").value);
 	label = document.getElementById("ans");
 	label.innerHTML = n1 - n2;
 	}
-	function myclick3() {
+	function myclick3(this) {
 	n1 =parseInt (document.getElementById("n1").value);
 	n2 =parseInt (document.getElementById("n2").value);
 	label = document.getElementById("ans");
 	label.innerHTML = n1 - n2;
 	}
-	function myclick4() {
+	function myclick4(this) {
 	n1 =parseInt (document.getElementById("n1").value);
 	n2 =parseInt (document.getElementById("n2").value);
 	label = document.getElementById("ans");
@@ -62,10 +62,12 @@ function myclick1(who) {
 	<body>
 	數字一:<input id="n1"><p>
 	數字二:<input id="n2"><p>
+	
 	<button onclick="myclick1(this)">加</button>
-	<button onclick="myclick1(this)">減</button>
-	<button onclick="myclick1(this)">乘</button>
-	<button onclick="myclick1(this)">除</button>
+	<button onclick="myclick2(this)">減</button>
+	<button onclick="myclick3(this)">乘</button>
+	<button onclick="myclick4(this)">除</button>
+	<input id="ans"type="text">
 		<label="ans"> <label>
 	</body>
 </html>
