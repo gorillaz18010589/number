@@ -1,0 +1,40 @@
+1.下載Mysql
+2.https://dev.mysql.com/downlsads/windows/installer/8.0.html (apple要多下載wobang)
+3.老師ptt --https://1drv.ms/f/s!AgvUF4VgQBBMgekJmQYnoZZngvbtXg網址
+4.資料庫管理系統(workbench)
+=======================
+1.use addressbok;    
+2.select*                 select*,cname,uid = 精準查詢用=
+from userinfo;  請列出所有userinfo顯示的資料
+3.where uid='A02';  (列出uid的資料)
+4.where cname like '王%'  (模糊查詢第一個字是王的都查出來-模糊查詢用like
+5.where cname like '%大%'  (%關鍵字%所有的都會顯示)
+6.where fee>= 500 帳單大於等於500資料都要
+7.where fee<> 700 帳單小於700都要
+8.where fee >= 200 and fee<700  200含以上小於700 (註解是--)
+9.where fee between 200 and 699  200之間到699
+10.where cname = '王大明' or cname =( '李大媽'  (查詢王大明"和"李大媽))
+11.where cname in ('王大明','李大媽') / 查詢王大明和李大媽
+12.where cname not in ('王大明','李大媽') /王大明 理大媽我不要其他都要
+13.<> 不等於  ro和
+14.order by uid / (排序) 由小到大 由舊到新 順向排序查詢
+14,order by uid desc / (反向排序)
+15.order by convert(cname using big5) /  筆畫排序
+16.order by fee desc, tel / 
+17.where cname ='' 抓空字串
+18.where cname is null or cname ='' 空字串跟null一起抓
+19.空字串就是原本有打明子但刪掉變空字串 =空白
+20.null=我沒動過他   要先處理不然會當機
+21.ifnull(cname,'YES')   /把null改成yes改成空字串
+22,select uid,ifnull(cname,'') /把uid的null改成空字串跑出來
+23.select count(*)  //跑出有8筆資料
+
+24.select userinfo.uid, cname ,address
+from userinfo,live,house -- 把他會成一張圖
+where userinfo.uid = live.uid and -- 用關聯性連到house.hid
+live.hid = house.hid and
+cname ='李大媽'
+25.where裡面要放(關聯線索) 跟(搜尋條件)
+
+https://www.1keydata.com/tw/sql/sql-syntax.html 語法
+
