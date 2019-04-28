@@ -1,0 +1,32 @@
+1.select *
+from userinfo left join live on
+userinfo.uid = live.uid 
+left join house on
+live.hid = house.hid;
+
+ 以上是所有連接方式 外部連結,比較檔案位置 跟檔案大小
+2.家裡多少人是沒有電話的
+3.SELECT count(*)  FROM userinfo 列出有多少筆資料
+4.INNER JOIN  只抓左右兩邊均有的資料
+5.LEFT  JOIN  /關連線左側資料比較多
+6.right JOIN /關聯現右側資料比較多
+7.CROSS JOIN /下此連接會當機
+8.a.uid AS '身份證字號',  //加別名身分證字號
+9. avg(fee) // avg平均()後面括號放參數選擇 ,tel
+10.round(,0) //讓他沒有小數
+11.sum()  // 算總和
+12.max()  //  最大值
+13.min()  // 最小值
+14.left(cname,1) 左邊取一個字
+15.select distinst //去除重複資料
+16,create view vw_housenumber as  創建一個檔案 直接套入查詢
+17,insert into userinfo values ('C01',null);     (插入一個C01)
+18.delete from tmp where uid = 'CO1';  -- 刪除單獨資料
+19.truncate table tmp ;   -- 一次刪掉整個資料夾 速度比較快
+16.union all 創一筆新資料 測試人員
+16.limit 3  前三筆資料
+16.-- 巢狀查詢
+17.列出所有使用者所擁有的房屋數量
+18. ifnull(n,0) 裡面有null那N參數就改0
+19. -- commit;  --直接寫入程式
+20. -- ROLLBACK --不會寫入程式李
