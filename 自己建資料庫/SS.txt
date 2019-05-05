@@ -1,0 +1,5 @@
+1.裝POSTMAN
+2.政府開放資料平台找AQI用JSON黨
+3.json -ps
+http://opendata.epa.gov.tw/ws/Data/ATM00757/?$format=json&callback=f1
+$format=json&callback=f1 有回傳f1有支援

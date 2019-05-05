@@ -1,0 +1,13 @@
+1.insert into userinfo (uid,cname)values('T01','王小棣'); 插入一筆新的資料
+2.drop trigger tr_userinfo_insert -- 刪除資料
+3.set @uid = new. uid;   -- 表示新增的資料uid
+4.set @s = concat('UserInfo 插入了一筆',@uid,' ',@cname,'的資料'); -- concat是加的意思 ',@uid,' 前後分號逗號是變數語法
+5.insert into log(body)values(@s);  -- 加入一個變數在logo裡面
+6.Store procedure 寫在資料庫裡的資料 (寫程式)
+7.
+8.
+9.
+10.
+11.
+12.
+13.

@@ -1,0 +1,7 @@
+1.Cursor //對每一筆資料作最細微的控制
+2.DECLARE curs CURSOR FORselect fee from bill  //宣告一個Cursor指向某個查詢
+3.select rand(); 出來是亂數 
+4.cast () //數字轉字串
+5.
+6.帳號:newuser
+7.密碼:pink23654512345
