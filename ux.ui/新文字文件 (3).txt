@@ -1,0 +1,18 @@
+https://www.usability.gov/what-and-why/user-centered-design.html
+1.User-Centered Design Basics 
+‧	Specify the context of use: Identify the people who will use the product, what they will use it for, and under what conditions they will use it.
+‧	Specify requirements: Identify any business requirements or user goals that must be met for the product to be successful.
+‧	Create design solutions: This part of the process may be done in stages, building from a rough concept to a complete design.
+‧	Evaluate designs: Evaluation - ideally through usability testing with actual users - is as integral as quality testing is to good software development.
+
+https://www.usability.gov/what-and-why/user-centered-design.html
+
+2. 【雛型建構與線框工具】
+*
+PENCILPROJECT
+	https://pencil.evolus.vn/
+ 
+未來人來了 -- 使用者體驗設計師
+	https://www.youtube.com/watch?v=Z64bfjfRkfs
+3.
+4.
