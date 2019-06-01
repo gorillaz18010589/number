@@ -1,0 +1,21 @@
+package tw.hank;
+
+import c.TW;
+
+public class t_6 {
+
+	public static void main(String[] args) {
+		String a ="A123456789".substring(0,1);
+		String letters = "ABCDEFIGHG";
+		if (letters.contains(a)) {
+			System.out.println("exist");
+		}
+	
+		if(TW.checkId("Brad")) {
+			System.out.println("OK");
+			
+		}else {
+			System.out.println("XX");
+		}
+	}
+}

@@ -1,0 +1,11 @@
+1.java.util=>arrays,sort() 排序
+1.最源頭的父類別Object
+2.沒有寫建構式會套用Object爸爸,他的方法是Constructor Summary 但沒效果
+3.如果你建構是了尊重你
+4.建構是沒有既成,只有屬性方法繼承
+*public 全世界
+*protected  兒子可以繼承修改
+*沒有 =>相同pakege
+*
+https://www.codejava.net/java-core/the-java-language/9-rules-about-constructors-in-java
+1. Constructors can be overloaded: 
