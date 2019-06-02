@@ -1,0 +1,11 @@
+1.string=>matches(String regex) = 符合,用在正規表示法
+2.string =>c0 =id.charAt(0); //charAT(0)抓到地0個位值的英文
+3.String=>indexOf(c0)://查詢在哪個位置
+4.string => substring()
+5.string => contact()在字串後可加字
+6.string => geBytes() 把string轉成陣列
+7.string => 
+8.StringBuffer  =>字串異動會用到,安全但不快
+9.StringBuilder =>字串異動會用到,用在多重程序上不安全,快但不安全
+10.StringBuilder => append()
+11.javax=>swing(做視窗)=>JOptionPane.showInputDialog

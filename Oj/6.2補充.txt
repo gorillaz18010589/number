@@ -1,0 +1,11 @@
+1.(正規表示法)https://zh.wikipedia.org/wiki/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F
+https://www.youtube.com/watch?v=wLpjC65vlbk&feature=youtu.be
+http://lms.taichung.iii.org.tw:8080/FSIT06/
+http://lms.taichung.iii.org.tw:8080/FSIT06/Java/Java.html
+https://www.youtube.com/watch?v=S9w-Oy5OsVg&feature=youtu.be
+https://www.youtube.com/watch?v=wLpjC65vlbk&feature=youtu.be
+*[a-zA-Z] = 中括號以內的才要//^相反的意思
+*[0-9]{8} = [0-9]做8次的意思
+* ^ =相反的意思
+
+
