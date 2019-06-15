@@ -1,0 +1,23 @@
+1.
+renameTo(File dest) =>改名子可以改目錄
+createNewFile()  =>創文件檔
+canExecute()=>可執行
+canRead()  =>可讀
+canWrite()  =>可寫
+java.io=> File : 沒有無傳參數建構式
+file =>	listRoots()
+mkdir()
+mkdir()
+1.access 存取時間
+2.change 檔案名稱屬性被改
+3.modifig :內容被改,修改時間
+lastModified() //修改時間
+
+1.檔案系統要懂
+2.網際網路
+3.資料庫 MYSQL
+
+串流 =>抽象類別
+OutputStream (輸出串流)
+FileOutputStream 
+InputStream

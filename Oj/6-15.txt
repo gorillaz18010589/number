@@ -1,0 +1,5 @@
+1.abstract class Trad161{//肚子傭有抽象方法裡面也要有
+2.abstract void m2();//有這個方法存在,此時不說抽象方法
+3.Component =>add():
+4.Jfarme=>setLayout(LayoutManager manager):
+5. BorderLayout =>版面配置

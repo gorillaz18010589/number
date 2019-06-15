@@ -9,3 +9,4 @@
 9.StringBuilder =>字串異動會用到,用在多重程序上不安全,快但不安全
 10.StringBuilder => append()
 11.javax=>swing(做視窗)=>JOptionPane.showInputDialog
+12.javax =>swing =>jframe
