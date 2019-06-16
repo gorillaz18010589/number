@@ -1,0 +1,38 @@
+*網際網路
+*最重要是交換資料
+*透過ip來定位
+java.net =>InetAddress : IP沒有建構是要透過static方法
+10.0.105.35
+255.255.255.0 =>前面依樣遮罩
+//通訊協定:
+TCP:連接 =>不能遺失,確保對方再收的狀況
+UDP:封包給全村的人有需要的人收到就用,資料封包可以移師無所謂,項線上遊戲或是gps
+TCMP:三方電話,你是誰,我是誰, 三方確認才開始發封包
+
+DatagramSocket建立一個插座,先找到差做才有電流傳送過來
+封包上面一訂有目地的,讓路由器去走
+路由器只知道下一站封包器去哪
+對方有一個封包類似信箱等你的封包來有就收到
+127.0.0.0.1
+
+ServerSocket  Socket 
+
+url api
+
+my url pdf
+
+https://data.gov.tw/datasets/search?qs=dtid%3A253&order=downloadcount&type=dataset
+api下載把資料讀完
+
+https://github.com/stleary/JSON-java
+
+1.下載原始碼
+2.Click here if you just want the latest release jar file.
+2.
+
+作業:
+文字編輯器:記事本
+聊天對話程式用udp
+提供一個輸入框讓對方下載,下載PDF的網頁利用
+
+brad@brad.tw

@@ -1,0 +1,11 @@
+1.我很確定我要讀的資料用文字讀取,不確定的話用input Stream已byte為單位.
+2.文字資料api writer read 抽象的
+3.filereader filewrite 不抽象的
+//FileInputStream => InputStreamReader =>  BufferedReader
+//		FileInputStream fin = new FileInputStream(""); //一根串一根
+//		InputStreamReader ir = new InputStreamReader(fin);
+//		BufferedReader br = new BufferedReader;
+		//	BufferedReader =>readLine()
+		//物件序列化,讓物件可以輸出輸入多好
+		// ObjectOutputStream =>writeObject(Object obj)
+		//ObjectInputStream => readObject()
