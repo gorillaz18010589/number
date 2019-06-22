@@ -1,0 +1,15 @@
+java.sql=>DriverManager=>	getConnection(String url) :連接
+
+
+
+//最後一張
+資料結構Interface Set<E>
+Collection =>
+(1)Set :(集合)這組東西叫set:
+*(不重複)*(沒有順序性:裡面東西是亂丟的)
+
+(2)List:資料東西是一串一串的:
+*(可重複)*(有順序性)
+*<E>泛型:指定資料結構所放置的元素型別
+
+Set<E>=>iterator() :(迭代)一個一個把魚拿出來只能有一個方向拿完就沒有了

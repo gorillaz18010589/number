@@ -1,0 +1,5 @@
+https://www.mamp.info/en/
+java.sql -資料庫的連接
+資料庫的連接觀念:每家SQL不同,由SQL提供驅動程式,要去找各自的SQL,用SQL
+https://www.mysql.com/products/connector/
+Platform Independent 與平台無關下lzip

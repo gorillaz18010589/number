@@ -1,0 +1,34 @@
+https://www.mamp.info/en/
+java.sql -資料庫的連接 =>DriverManager
+資料庫的連接觀念:每家SQL不同,由SQL提供驅動程式,要去找各自的SQL,用SQL
+https://www.mysql.com/products/connector/ (MySQL Connectors)
+Platform Independent 與平台無關下lzip
+*資料庫就是檔案的概念
+*MAMP =>我換成3307,要改
+http://localhost/MAMP/
+Host	localhost
+Port	3307
+User	root
+Password	root
+點 phpMyAdmin.能進去就有成功
+給庫明後大小寫嚴格區分,自訂的東西嚴格區分
+id int                AttRIBUTES(UNSIGNED)     AI要勾
+cname varchar 100
+tel         varchar 100
+birthday date   
+ID設為主建會自動地增(一般都是這樣)
+
+bulid path =>
+
+Class.forName("com.mysql.cj.jdbc.Driver");
+
+OkHttp推薦好用java =>第三方aip連線的包含連line的通訊協定都有
+https://dev.mysql.com/doc/connector-j/5.1/en/connector-j-reference-configuration-properties.html
+ODBC: cmd搜尋 :程式語言有java有C,伺服器也有多種,你們個字連線只要對我就好
+//只要伺服器過來就產生DSN
+//你的各種語言認各自DSN就好
+//但這樣效能比較差一點
+
+https://jar-download.com/artifacts/org.json 下載jar
+
+https://www.json.org/ 
