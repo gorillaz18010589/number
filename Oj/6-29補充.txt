@@ -1,0 +1,10 @@
+https://www.easyicon.net/language.zh-tw/ :圖片網址
+
+//準備要寫打磚塊遊戲
+//實現開頭的狀況,與時間週期有強烈關西
+//要撰寫的東西足夠讓你開發2d遊戲
+//java.awt.Graphics :畫圖
+//javax.imageio :存讀圖片
+//fps =>:遊戲每秒60針比較好看
+
+Brad55_2更好的方法

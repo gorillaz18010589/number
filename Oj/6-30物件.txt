@@ -1,0 +1,5 @@
+@WebServlet("/HelloWorld") //指定在外面user端是用這個方式來存取的名稱
+public class HelloWorld extends HttpServlet { //實際類別在這邊,永遠繼承 HttpServlet
+
+//人家提出要求他的贆頭有哪些資訊
+//後端負責送頁面原始碼過去

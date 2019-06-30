@@ -1,0 +1,7 @@
+Thread=>interrupt():
+Thread=>isDaemon():
+Thread=>join():讓別人可以先插隊我先旁邊等
+Thread=>setDaemon(boolean on):設定背景執行緒
+javax.swing=>JTable
+Creating a Table Model:調變器
+java.awt.GridLayout

@@ -1,0 +1,11 @@
+cocos2d:可以玩一下
+java底:寫跨平台開發遊戲:libgdx
+
+Java ee:本身是一個標準有很多都可以實做,代表企業版,運用在web上面
+*https://www.oracle.com/technetwork/java/javaee/overview/index.html
+*http://tomcat.apache.org/  (阿啪氣湯姆貓
+(1.).版本8為主
+下載eclipse-inst-win64
+*選第二個 裝在 C:\Users\admin\eclipse\jee-2019-03
+https://tomcat.apache.org/tomcat-5.5-doc/servletapi/(api)
+https://github.com/bradchao/FSIT06_JavaEE/tree/master/MyJavaEE
