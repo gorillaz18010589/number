@@ -1,0 +1,54 @@
+*使用外部資源時方法
+創建一個folder =>名子叫resource底下
+
+*網頁前端在web Content底下
+*寫java在 java Resources底下
+
+java ee mvc:
+https://blog.csdn.net/qq_34764487/article/details/73558143
+MVC按照字面意思就是Model(模型)、View(??)、Controller(控制器)，
+基本思想就是把程序界面和????分离??，方便??，??以及后期???，增?各模??的 ??立性，避免?一?而?全身。
+
+
+Model(模型)用于??一些?据????，主要是接受?理?据以及??操作?据?
+View(??)用于向用??示一些?据
+Controller(控制器)用于?理?用与用?的交互，
+主要是?View(??)?取?据，控制用??入，??据?送到Model(模型)
+--------------------- 
+作者：BestbpF 
+?源：CSDN 
+原文：https://blog.csdn.net/qq_34764487/article/details/73558143 
+版??明：本文?博主原?文章，???附上博文?接！
+*Controller(控制器) 拿到的要求跟請求交給model拿來演算
+*Model演算好後,交給View去表現出來
+*Model(模型):
+*View(??):
+*Controller(控制器):
+
+http://localhost:8080/MyjavaEE/Brad14?x=10&y=3
+
+
+response.setContentType("text/html; charset=UTF-8" );//一開始就要設定在串流還沒接之前就要做
+		PrintWriter out = response.getWriter(); //輸出請求
+		
+		String x = request.getParameter("x");//照樣接收請求
+		String y = request.getParameter("y");
+		String result = request.getParameter("result");
+//		out.print(x + "+" + y + "=" +result);
+		
+		
+		out.print(loadView("myview1.html"));
+	}
+	private void loadView() { //載入指定的view
+		ServletContext context =getServletContext(); //取得一個掌管伺服器的相關關鍵
+		String viewPath = context.getInitParameter("viewPath");
+			
+		BufferedReader reader =
+				new BufferedReader(new FileReader(new File(viewPath,viewfile)));
+		StringBuffer sb = new StringBuffer(); String line;
+		
+		}
+	}
+
+
+	

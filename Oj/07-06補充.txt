@@ -1,0 +1,13 @@
+*使用外部資源時方法
+創建一個folder =>名子叫resource底下
+
+*網頁前端在web Content底下
+*寫java在 java Resources底下
+
+java ee mvc:
+https://blog.csdn.net/qq_34764487/article/details/73558143
+*
+*
+*
+*
+*
