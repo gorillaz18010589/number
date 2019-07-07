@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <context-param>
+    <param-name>uploadPath</param-name>
+    <param-value>C:/Users/admin/eclipse-workspace/Bradjava/MyjavaEE/WebContent/upload</param-value>
+  </context-param>
+   <context-param>
+    <param-name>viewPath</param-name>
+    <param-value>C:/Users/admin/eclipse-workspace/Bradjava/MyjavaEE/WebContent/views</param-value>
+  </context-param>
+</web-app>
+<!-- 設定路徑 -->
+
+
+	
+		response.setContentType("text/html; charset=UTF-8"); //設定中文
+		PrintWriter out = response.getWriter(); //要求寫出
+		
+		String x = request.getParameter("x"); //得到的參數
+		String y = request.getParameter("y");
+		String result = request.getParameter("result");
+		
+		String html = loadView("myview2.html");
+		String outHtml = String.format(html, x, y, result);
+		out.print(outHtml);
+	}
+	
+	private String loadView(String viewfile) throws IOException { //取得一個掌管伺服器的相關關鍵
+		ServletContext context = getServletContext(); 
+		String viewPath = context.getInitParameter("viewPath");
+		
+		BufferedReader reader =  //讀取資料
+			new BufferedReader(new FileReader(new File(viewPath, viewfile)));
+		StringBuffer sb = new StringBuffer(); String line;
+		while ((line = reader.readLine()) != null) {
+			sb.append(line);
+		}
+		reader.close();
+		return sb.toString();
+	}
+	
+
+}
+
+14.
+
+		//0.prepare(準備) *Controller(控制器) 把你的request根 response準備在此
+//		String x = request.getParameter("x"); 
+//		String y = request.getParameter("x");
+//		if(x == null) x ="0"; //如果你輸入的值是讓你數值為0,方便去處理
+//		if(y == null) y ="0";
+		
+		String x = request.getParameter("x");
+		String y = request.getParameter("y");
+		String op = request.getParameter("op");
+		if (x == null) x = "0";
+		if (y == null) y = "0";
+		if (op == null) op = "1";
+		
+		//1.model (寫Brad15) //演算法另外寫class
+		
+		Brad15 model = new Brad15(x, y, op);//物件實體化叫出model
+		double result = model.operation();//model的add()方法算出X + Y演算,存入在result
+		
+		//2. View 效果畫面暫時寫在Brad16
+		String pline = String.format("Brad16?x=%s&y=%s&result=%s",
+				x,y,result);
+		RequestDispatcher rd = 
+			request.getRequestDispatcher(
+				pline);
+		rd.forward(request, response);
+				
+	}
+}

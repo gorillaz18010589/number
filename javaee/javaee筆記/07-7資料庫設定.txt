@@ -1,0 +1,330 @@
+1.(id) int UNSIGED PRIMARY(主建)  AIˇ(自動遞增)
+2.(accout) varchar(100)
+3.passwd  varchar(255)
+4.realname varchar(100)	
+java bcrypt api (家秘密碼)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+package tw.brad.myjava;
+//Brad17後面的資料庫
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.util.Properties;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.berry.BCrypt;
+
+
+@WebServlet("/Brad19")
+public class Brad19 extends HttpServlet {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.setContentType("text/html; charset=UTF-8");//使用此語法
+		PrintWriter out = response.getWriter(); //輸入
+		
+		String account = request.getParameter("account"); //取得帳號參數
+		String passwd = request.getParameter("passwd");
+		String realname = request.getParameter("realname ");
+		
+		if(account == null)return; //如果你是從url帳號填寫表單會是null回傳空白
+		
+		//用已經加密的api別人寫的
+		String passwd2=BCrypt.hashpw(passwd, BCrypt.gensalt());
+		String ret = toMySQL(account, passwd2, realname);
+		out.print(ret);
+		out.flush();
+//		out.print(passwd +"<br>"); //一般密碼
+//		out.print(passwd2 +"<br>");//使用加密的密碼
+//		out.print(passwd2.length());//顯示密碼長度資料庫夠不夠
+		
+//		out.print(account + ":" + passwd +":" + realname); //檢查帳號
+	}
+
+	private String toMySQL(String account, String passwd, String realname) {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			
+			Properties prop = new Properties();
+			prop.put("user", "root");
+			prop.put("password", "root");
+			prop.put("serverTimezone", "Asia/Taipei");
+			Connection conn = DriverManager.getConnection(
+				"jdbc:mysql://localhost:3307/iii", prop);
+			String sql = 
+				"INSERT INTO member (account,passwd,realname) VALUES (?,?,?)";
+			PreparedStatement pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, account);
+			pstmt.setString(2, passwd);
+			pstmt.setString(3, realname);
+			int count = pstmt.executeUpdate();
+			return "Affected: " + count;
+		}catch(Exception e) {
+			//System.out.println(e.toString());
+			return e.toString();
+		}		
+	}
+	
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doGet(request, response);//跑道post再進來這,你去做doget
+	}
+	
+	//自寫的讓doget跟dopost都在這做
+//	private void doBrad(HttpServletRequest request, HttpServletResponse response) {//寫一個方法管你前端do什麼都做這個方法
+//		
+//	}
+
+}
+
+Brad21
+
+package tw.brad.myjava;
+//驅動程式要拉出來
+//登入帳號密碼
+//1.先確認帳號在布在
+//2.帳號不再檔調,帳號在的話加密挖出來
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.Properties;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.xml.transform.Result;
+
+
+
+@WebServlet("/Brad21")
+public class Brad21 extends HttpServlet {
+	//建構式
+	private boolean isOK;
+	private Connection conn;
+	private String sql ="SELECT * FROM member WHERE account = ?"; //找詢資料庫帳號
+	public Brad21() { //利用建構是方法第一次登入驅動程式
+		System.out.println("Brad21()");
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver"); //連接驅動程式
+			Properties prop = new Properties();
+			prop.put("user", "root"); //輸入帳號
+			prop.put("password", "root");
+			prop.put("serverTimezone", "Asia/Taipei");//輸入時區
+			 conn = DriverManager.getConnection( //(得到網域,帳號)
+				"jdbc:mysql://localhost:3307/iii", prop);
+			isOK =true;
+		}catch (Exception e) {
+			isOK =false;
+		}
+	}
+
+  
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//1.設定語法,取得 request參數設定,輸出response.getWriter();
+		response.setContentType("text/html; charset=UTF-8");//使用此語法
+		PrintWriter out = response.getWriter(); //輸入
+		String account = request.getParameter("account"); //取得帳號參數
+		String passwd = request.getParameter("passwd");   
+		
+		if(account == null)return;
+		boolean isMember = checkAccount(account, passwd); //檢查帳密
+		if(isMember) {
+			out.print("登入成功");
+		}else {
+			out.print("帳密錯誤");
+		}
+			
+		
+		
+		System.out.println("doGet()");
+	}
+	//檢查帳號
+	private boolean checkAccount(String account,String passwd) {
+	
+		boolean ret =false;
+		try {
+			PreparedStatement pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, account);
+			ResultSet rs =pstmt.executeQuery();
+			if(rs.next()) { //如果沒有下個帳號,代表就這個
+				String hashPasswd = rs.getString("passwd");
+				ret = BradAPIs.ckPasswd(passwd, hashPasswd);
+			}
+		}catch (Exception e) {
+			
+		}
+		return ret;
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		doGet(request, response);
+	}
+
+}
+
+
+//驅動程式要拉出來
+//登入帳號密碼
+//1.先確認帳號在布在
+//2.帳號不再檔調,帳號在的話加密挖出來
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.Properties;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.xml.transform.Result;
+
+
+
+@WebServlet("/Brad21")
+public class Brad21 extends HttpServlet {
+	//建構式
+	private boolean isOK;
+	private Connection conn;
+	private String sql ="SELECT * FROM member WHERE account = ?"; //找詢資料庫帳號
+	public Brad21() { //利用建構是方法第一次登入驅動程式
+		System.out.println("Brad21()");
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver"); //連接驅動程式
+			Properties prop = new Properties();
+			prop.put("user", "root"); //輸入帳號
+			prop.put("password", "root");
+			prop.put("serverTimezone", "Asia/Taipei");//輸入時區
+			 conn = DriverManager.getConnection( //(得到網域,帳號)
+				"jdbc:mysql://localhost:3307/iii", prop);
+			isOK =true;
+		}catch (Exception e) {
+			isOK =false;
+		}
+	}
+
+  
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//1.設定語法,取得 request參數設定,輸出response.getWriter();
+		response.setContentType("text/html; charset=UTF-8");//使用此語法
+		PrintWriter out = response.getWriter(); //輸入
+		String account = request.getParameter("account"); //取得帳號參數
+		String passwd = request.getParameter("passwd");   
+		
+		if(account == null)return;
+		boolean isMember = checkAccount(account, passwd); //檢查帳密
+		if(isMember) {
+			out.print("登入成功");
+		}else {
+			out.print("帳密錯誤");
+		}
+			
+		
+		
+		System.out.println("doGet()");
+	}
+	//檢查帳號
+	private boolean checkAccount(String account,String passwd) {
+	
+		boolean ret =false;
+		try {
+			PreparedStatement pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, account);
+			ResultSet rs =pstmt.executeQuery();
+			if(rs.next()) { //如果沒有下個帳號,代表就這個
+				String hashPasswd = rs.getString("passwd");
+				ret = BradAPIs.ckPasswd(passwd, hashPasswd);
+			}
+		}catch (Exception e) {
+			
+		}
+		return ret;
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		doGet(request, response);
+	}
+
+}
+
+
+24
+package tw.brad.myjava;
+import java.awt.Color;
+import java.awt.Graphics2D;
+import java.awt.image.BufferedImage;
+//網頁畫圖
+import java.io.IOException;
+import java.io.OutputStream;
+
+import javax.imageio.ImageIO;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+@WebServlet("/Brad22")
+public class Brad22 extends HttpServlet {
+  
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.setContentType("image/jpeg ");//setContentType(宣告輸出為圖檔) 網頁輸出要跟response有關
+		
+//		float rate = 25;   //50% 0.5 => 100% =>1
+		
+		float rate = Float.parseFloat(request.getParameter("rate")); 	// 50%
+		
+		
+		
+		//在記憶體裡面畫
+		BufferedImage bimg = new BufferedImage(400, 20, BufferedImage.TYPE_INT_BGR); //設定畫布
+		Graphics2D g2d = bimg.createGraphics();
+		
+		g2d.setColor(Color.YELLOW); //填上黃色
+		g2d.fillRect(0, 0,bimg.getWidth(),bimg.getHeight());
+		g2d.setColor(Color.RED);//填上紅色
+		g2d.fillRect(0, 0,(int)(bimg.getWidth()*rate/100),bimg.getHeight()); //寬度一半
+		
+		OutputStream out  =	response.getOutputStream();//輸出串流
+		ImageIO.write(bimg, "jpeg", out);
+		out.flush();
+		out.close();
+	}
+
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doGet(request, response);
+	}
+
+}

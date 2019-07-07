@@ -1,0 +1,5 @@
+下載mysqlodbc檔
+https://dev.mysql.com/downloads/connector/j/
+下載platform independent
+下載後解壓縮拿出
+mysql-connector-java-8.0.16

@@ -1,0 +1,21 @@
+<script>
+
+		document.cookie = "name=Brad"; //設定cookie給他
+		document.cookie = "age=18";
+
+		
+		//抓cookie方法
+		function getAllCookies(){
+		let  decodeCookie =	decodeURIComponent(document.cookie)
+		document.write(decodeCookie + "<hr>"); //產生新的一頁
+		let  cookiesArray =	decodeCookie.split(";");
+		for(let i =0; i<cookiesArray.length; i++){
+			let cookie = cookiesArray[i];
+			let row = cookie.split("=");
+			document.write(row[0] + ":" +row[1] + "<br>");
+		}
+		}
+		
+		getAllCookies();
+
+</script>
