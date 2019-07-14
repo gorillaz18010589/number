@@ -1,0 +1,7 @@
+JSP:
+<%  %> :裡面可以寫java程式
+<%@ page  =>後面接page
+這期要出幾號:<% out.print(lottery); %> html +<樂透java程式>
+<%!
+	int b =10 ; //<%! =>static方法
+%>
