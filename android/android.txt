@@ -1,0 +1,93 @@
+git hub跟steak overflow
+*已官網為主
+
+
+1.安裝流程:https://developer.android.com/studio
+2.建議裝在c:\brad\android Studio
+3.要不要匯入之前有安裝的設定檔
+4.OTG線要能上傳檔案的
+http://www.screenmirrorapp.com/可以連線手機畫面
+
+1.+ start a project
+(2)import procject 早期日時的專案
+*Empty=>
+*name:
+*packge-name:使用貴公司組織名稱網域名稱倒過來寫 tw.brad.apps.brad01
+tw.org.iii.apps.brad02
+*Save location:下載位置:放哪裡很重要
+*Language:語言 java
+
+*Minimum API :23 版本6
+
+2phone.最重要還是再行動裝置
+3.穿戴重點在通知,做資料交換 (wear OS)
+4.TV商用機種,跑步機電視
+5.android auto車載
+6.Android Things
+
+模擬器:genymotion
+https://www.genymotion.com/
+
+10.0.105.148手機ip
+5037
+5555
+
+C:\Users\admin\AndroidStudioProjects\brad03下載位置
+
+git.exe搜尋就可以下載
+https://github.com/gorillaz18010589/FSIT06_hank.git複製貼上
+
+manifests =>檔案總管,打包安裝,設置權限
+java=>tw.brad.apps =>程式
+
+
+ btnLottery.setOnClickListener(new View.OnClickListener() {//設置事件,用view事件
+            @Override
+            public void onClick(View view) {
+                Log.v("brad","OK");
+            }
+        });
+
+
+ <!--
+        orientation="vertical":版面垂直
+      * layout_width="match_parent":占滿版寬
+      * android:layout_height="0dp":高度設0
+      *android:layout_weight="1"
+     -->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Test1"
+        android:textSize="24sp"
+        android:background="#ff0"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parents"
+        android:layout_weight="1"
+        android:text="Test2"
+        android:textSize="24sp"
+        android:background="#0f0"
+        />
+
+ <!--
+            id="@+id/guess"
+            layout_width="wrap_content" //版面寬設置
+            layout_height="wrap_content"//版面高設置
+            text="Guess" //文字設置
+            layout_alignParentRight="true" //沿著包著你的爸爸容器靠右
+            layout_marginLeft="10dp" //距離左邊物件多少距離
+            layout_alignTop="@id/guess"://上方對齊指定物件
+            layout_alignBottom="@id/guess":下方對齊指定物件
+     -->
+    <!-- 頂端版面-->
+
+ <!--
+        orientation="vertical":版面垂直
+      * layout_width="match_parent":占滿版寬
+      * android:layout_height="0dp":高度設0
+      *android:layout_weight="1":版面占比
+     -->

@@ -1,0 +1,8 @@
+       Paint paint = new Paint(); //產生畫筆的物件實體
+            //畫圓方法
+//        paint.setColor(Color.RED);
+//        canvas.drawCircle(200,200,40,paint); //畫圓型(圓心,圓心,40redius)
+
+        //劃線
+        paint.setStrokeWidth(10);  //設置線條的寬度
+        paint.setColor(Color.BLUE);  //設置畫筆顏色為藍色
