@@ -1,0 +1,112 @@
+package tw.brad.apps.brad28;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.ContentResolver;
+import android.database.Cursor;
+import android.net.Uri;
+import android.os.Bundle;
+import android.provider.ContactsContract;
+import android.provider.Settings;
+import android.util.Log;
+import android.view.View;
+
+import java.net.URI;
+
+public class MainActivity extends AppCompatActivity {
+    private ContentResolver cr;
+    private Uri uriSettings = Settings.System.CONTENT_URI;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        cr = getContentResolver();
+
+        // content://database/table
+        // content://ContactsContract 聯絡人
+        // content://CallLog 通話紀錄
+        // content://MediaStore 媒體資料
+        // content://Settings 設定資料
+
+
+    }
+
+    //查詢uri的全部資料
+    public void test1(View view) {
+        // select * from Settings
+        Cursor c = cr.query(uriSettings,
+                null, null, null, null);
+
+        int colCount = c.getColumnCount();
+        while (c.moveToNext()) {
+            for (int i = 0; i < colCount; i++) {
+                Log.v("brad", c.getColumnName(i) + " => " + c.getString(i));
+            }
+
+
+        }
+        c.close();
+    }
+
+    public void test2(View view) {
+//        Cursor c = cr.query(uriSettings, //cr
+//                null, //位置
+//                "name = ?", //查詢條件
+//                new String[]{Settings.System.SCREEN_BRIGHTNESS},//String{}[位置]
+//                null);//order
+//        c.moveToNext();
+//        //要抓欄位方式一
+//        String value = c.getString(c.getColumnIndexOrThrow("value"));
+//        Log.v("brad", "v = " + value);
+//
+//        //抓欄位方式二用getInt//(1.cr,2.欄位字串)
+//        try {
+//            int v2 = Settings.System.getInt(cr, Settings.System.SCREEN_BRIGHTNESS);//(1.cr,2.欄位字串)
+//            Log.v("brad", "v2 = " + v2);
+//        } catch (Exception e) {
+//            Log.v("brad", e.toString());
+//        }
+        Log.v("brad", getSystemSetting(Settings.System.ANDROID_ID));
+    }
+        //自己寫的更好讀取方法
+    private String getSystemSetting(String settingName) {
+        Cursor c = cr.query(uriSettings,
+                null,
+                "name = ?", new String[]{settingName}, null);
+        try {
+            return Settings.System.getString(cr, settingName);
+        } catch (Exception e) {
+            Log.v("brad", e.toString());
+            return null;
+        }
+    }
+
+    //取得電話簿人名字
+    public void test3(View view) {
+
+//        ContactsContract.CommonDataKinds.Phone; //找聯絡人裡面,的電話
+//        ContactsContract.CommonDataKinds.Email; //找聯絡人的email
+//        ContactsContract.CommonDataKinds.Photo; //找聯絡人的照片
+//          ContactsContract.Contacts.CONTENT_URI 全部欄位資料
+
+
+        Cursor c = cr.query(ContactsContract.Contacts.CONTENT_URI,
+                null,null,null,null
+        );
+
+        //取得電話簿人名字
+        String name = ContactsContract.Contacts.DISPLAY_NAME; //電話簿名稱
+        int colCount = c.getColumnCount();
+        while (c.moveToNext()) {
+            for (int i = 0; i < colCount; i++) {
+                Log.v("brad", c.getColumnName(i) + " => " + c.getString(i));
+            }
+            Log.v("brad","---------------");
+        }
+        c.close();
+    }
+    
+    //抓到id取得電話人電話
+}
