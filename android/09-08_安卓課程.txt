@@ -1,0 +1,121 @@
+1:TextView;樂透產生器
+4:BroadcastReceiver:廣播接收
+5;listView:灌資料到item李
+6:hank06:intent道別得頁面,產生樂透,把質帶到別得頁面
+7.Handler:掌控訊息傳遞
+8:.Canvas;信用卡簽名
+9..BitmapFactory_球跳動
+10:AlertDialog
+11:AlertDialog
+12:
+import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+13:
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+14:
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.content.BroadcastReceiver;
+18:open data_topage2
+19:
+import androidx.fragment.app.Fragment;
+import android.os.Handler;
+import android.os.Message;
+20:
+//套用別人api
+//檔案上傳frgament
+
+21://玩viewpager
+//有三個按鈕一個viewpager
+//每一個都繼承Fragment,我現在要統一去管理他,對我剛開始來說他們沒有不一樣
+//所以我會宣告陣列去代表三個統一管理的frgament
+//你把這些Frgament去當作listView去處理他,所以需要一個調變器去把資料灌進來
+//剛剛的調變器已經把fmgr把這個介紹給他認識所以viwepager可以處理
+//iphone拉會有一個效果,放手彈回去,我們安卓要做的話就是做第0頁跟第四頁,但你拉不過去達到此效果
+
+22.web_view重要
+
+23://目的掃條碼
+//新增assets=>裡面寫html
+//android scan barcode zlib github https://github.com/dm77/barcodescanner 引入第三方api
+//權限apihttps://developer.android.com/training/permissions/requesting
+掃條碼
+
+24:import android.app.Service;
+import android.content.Intent;
+import android.os.IBinder;
+
+25.音樂播放AudioManager
+
+26. ServiceConnection
+
+27:資料庫
+import android.content.ContentValues;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+
+//28.玩手機硬體
+
+//29   MYasyncTask
+//跟執行緒類似,非同步任務,但用起來會比執行緒好用
+//timer time task式週期
+//執行緒是做一件事情,對安卓來說太陽春了
+//AsyncTask仍然會在背景去做,但優點是不用透過handele直接操控
+//PENDING => Running => finish
+//你叫他取消他還有做完,但取消還是有做
+
+//30.
+DatePicker picker= dialog.getDatePicker(); 跳出對話框
+
+//31.
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.Button;
+import android.widget.CompoundButton;
+import android.widget.ImageView;
+import android.widget.ListView;
+
+/32.
+   <!-- 類似九宮格
+    android:numColumns="2"控制幾列
+    android:gravity="center":控制置中
+    -->
+//33.ExpandableListView 可以擴展的選單
+
+//34.玩Firebase讀取遠端資料
+ 
+//35.//玩資源路徑不能亂改
+//layout=>res file => 左邊選擇 oretion =>一個直port版本,一個橫的land版本
+//Values => resFile => locacl國家
+//少很多端段包含layout頁面
+
+//36.thing 三軸感應器
+
+//Level水平儀
+
+//37.goggle map
+
+//38.goggle api
+//goggle map sdk api :https://developers.google.com/maps/documentation/?hl=zh-tw
+//=>Map Objects:
+//=>Camera and View
+//1.build.gradle(app) 加上implementation 'com.google.android.gms:play-services-maps:17.0.0'
+//2.把這個fragment xmlns:android="http://schemas.android.com/apk/res/android",掛上去xml
+//3.實做 OnMapReadyCallback
+//4.取得遠端map導入我的寫的Mycallback方法
+//5.複製google_maps_api 貼上values
+//6.檔案總館加上權限 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+//7.在google網頁新增一個項目讓專案同個key可以玩家上tw.brad.apps.brad38mymap,同個key儲存
+//另外單元android httpurlconnection https ,android volley https
+
+//39 Fst39_AudioManger
+錄音 停止錄音 寫入檔案位置
+
+//40 vibrator_CameraManager ,相機拍照,震動
+
+//41.藍芽
+
+
