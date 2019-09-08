@@ -1,0 +1,45 @@
+https://www.newebpay.com/ 藍新
+https://www.ecpay.com.tw/綠界
+zdrgnkoiu
+https:
+要讓審查人員在處理什麼
+//要有提供服務,價格是什麼
+//收費流程是什麼
+//1.設定帳號
+//2.信用卡申請
+//3.HashKey:
+如果沒到用在換key
+//金流跳到他的網站,再回乎回來,
+Notify URL =>給json回來,訂單編號不能重複
+Return RO
+一個背景是拿回來生效,前景是一回來帶你去哪裡
+
+=============
+較快的方法快速收款=>商店建立給你一個URL
+========
+金流api=>多功能收款
+取得api拿到Code =>拿到後把資訊灌到表單,這時候窗口對到藍心
+藍新 =>銀行交易
+我們回收到是否有完成
+訂單編號再送出前就要產生
+
+//可用測試環境
+//測式卡:4000-2211-1111-1111
+//: name='MerchantID' value=''><br>商店代號
+
+//這種方式傳遞出去表單,要先寫好,帶到藍新的頁面
+<form name='newebpay' method='post'
+action='https://core.newebpay.com/MPG/mpg_gateway'>MerchantID：<input
+type='text' name='MerchantID' value=''><br>
+(...欄位參數內容)
+<input type='submit' value='Submit'></form>
+
+java aes256
+java sha256
+開信用卡測試就好
+
+javaee 網站代管
+jsp主機
+https://www.powerweb.tw/modules/host/JSP-Host.html
+http://tw.powerweb-hosting.com/modules/host/JSP-LinuxSharedJVM01.html
+https://www.nss.com.tw/host/Host_jsp.php

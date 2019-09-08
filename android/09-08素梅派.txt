@@ -1,0 +1,22 @@
+androd thing
+1.一塊祖板燒在sd卡上去,sd卡插上去可以開機
+2.Iot底層平台成為物連網的底層裝置
+3.提供OEM智慧顯示跟置會喇叭
+https://www.ithome.com.tw/news/128726'
+https://developer.android.com/things
+
+原理:
+ 使用Android SDK和Android Studio進行開發
+ 通過Android框架本地訪問硬件，如顯示器和相機
+將您的應用與Google服務相關聯
+通過外設I / O API（GPIO，I2C，SPI，UART，PWM）整合外殼
+ 使用Android Things Console透過遠端資料更新和安全更新
+
+//同網斷
+//ADB連接
+//SD卡街上去,透過命令列導引你把作業系統裝上去
+//行動電源2V,一開始可接滑鼠鍵盤
+//BCM擴充其他要接的程式,杜邦線連接
+
+//cmd:連接
+//創andorid things專案
